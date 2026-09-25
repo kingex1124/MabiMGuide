@@ -5,6 +5,8 @@
   let data = WorkshopData.empty();
   let view = 'items';
   let editing = null;
+  let batchMode = false;
+  let batchRows = [];
   let selectedTags = new Set();
   let selectedComponents = new Set();
   let toastTimer;
@@ -63,6 +65,8 @@
     const label = view === 'items' ? '道具' : 'Tag';
     $('add-button').textContent = `＋ 新增${label}`;
     $('add-bottom-button').textContent = `＋ 新增${label}`;
+    $('add-button-batch').textContent = `複數新增${label}`;
+    $('add-bottom-button-batch').textContent = `複數新增${label}`;
     $('search').placeholder = `搜尋${label}名稱、ID 或說明…`;
     const query = $('search').value.trim().toLocaleLowerCase();
     const rows = data[view].filter(row => [row.id, row.name, row.description].some(s => s.toLocaleLowerCase().includes(query)) && (view !== 'items' || !$('tag-filter').value || row.tags.includes($('tag-filter').value)));
@@ -117,27 +121,197 @@
       checkbox.addEventListener('change', () => {
         if (checkbox.checked) selection.add(row.id); else selection.delete(row.id);
         $('selected-tag-count').textContent = `${selectedTags.size} 個已選`;
+        renderSummary();
       });
       label.append(checkbox, element('span', '', row.name), element('small', '', row.id));
       target.append(label);
     }
   }
-  function openEditor(row) {
+  function renderSummary() {
+    $('preview-name').textContent = $('record-name').value.trim() || '尚未填寫名稱';
+    $('preview-description').textContent = $('record-description').value.trim() || '尚無說明';
+    $('selection-summary').hidden = view !== 'items';
+    $('tag-preview-note').hidden = view === 'items';
+    for (const [kind, rows, selection] of [['tag', data.tags, selectedTags], ['component', data.items, selectedComponents]]) {
+      const target = $(kind === 'tag' ? 'summary-tags' : 'summary-components');
+      $(`summary-${kind}-count`).textContent = `${selection.size} 個`;
+      target.replaceChildren();
+      if (!selection.size) target.append(element('p', 'muted', kind === 'tag' ? '尚未選擇 Tag' : '尚未選擇組成素材'));
+      for (const row of rows.filter(r => selection.has(r.id))) {
+        const entry = element('div', 'summary-entry');
+        const name = element('span', '', row.name);
+        name.append(element('small', '', row.id));
+        const remove = action('×', 'icon-button', () => {
+          selection.delete(row.id);
+          $('selected-tag-count').textContent = `${selectedTags.size} 個已選`;
+          renderOptions(kind);
+          renderSummary();
+          $(kind === 'tag' ? 'summary-tags' : 'summary-components').focus();
+        });
+        remove.setAttribute('aria-label', `移除${kind === 'tag' ? ' Tag' : '組成素材'}：${row.name}`);
+        entry.append(name, remove);
+        target.append(entry);
+      }
+      target.tabIndex = -1;
+    }
+    for (const entry of batchRows) entry.renderPreview();
+  }
+  function addBatchRow() {
+    const entry = {
+      id: WorkshopData.generateId(view, [...data[view], { id: $('record-id').value }, ...batchRows]),
+      components: new Set()
+    };
+    const card = element('section', 'batch-card');
+    const heading = element('div', 'batch-heading');
+    heading.append(element('h3', '', `新增${view === 'items' ? '道具' : ' Tag'} · ${entry.id}`), action('移除此筆', 'text-button danger', () => {
+      batchRows = batchRows.filter(row => row !== entry);
+      card.remove();
+      $('batch-add').focus();
+    }));
+    const basics = element('div', 'editor-basics');
+    const nameLabel = element('label', '', '名稱 *');
+    entry.nameInput = element('input');
+    entry.nameInput.required = true;
+    entry.nameInput.maxLength = 200;
+    entry.nameInput.placeholder = '輸入名稱';
+    nameLabel.append(entry.nameInput);
+    const descriptionLabel = element('label', '', '說明');
+    entry.descriptionInput = element('textarea');
+    entry.descriptionInput.maxLength = 10000;
+    entry.descriptionInput.rows = 3;
+    entry.descriptionInput.placeholder = '記錄用途、取得方式或其他備註…';
+    descriptionLabel.append(entry.descriptionInput);
+    basics.append(nameLabel, descriptionLabel);
+    if (view === 'tags') {
+      const preview = element('aside', 'editor-summary batch-preview');
+      preview.setAttribute('aria-label', `${entry.id} 內容預覽`);
+      const name = element('h4', 'batch-preview-name');
+      const description = element('p', 'description batch-preview-description');
+      preview.append(element('h3', 'editor-section-title', '內容預覽'), name, description);
+      entry.renderPreview = () => {
+        name.textContent = entry.nameInput.value.trim() || '尚未填寫名稱';
+        description.textContent = entry.descriptionInput.value.trim() || '尚無說明';
+      };
+      for (const input of [entry.nameInput, entry.descriptionInput]) input.addEventListener('input', entry.renderPreview);
+      const fields = element('div', 'batch-grid batch-tag-grid');
+      fields.append(basics, preview);
+      card.append(heading, fields);
+      batchRows.push(entry);
+      $('batch-rows').append(card);
+      entry.renderPreview();
+      entry.nameInput.focus();
+      return;
+    }
+    basics.append(element('small', '', 'Tag 與第一筆相同，儲存時一併套用。'));
+    const picker = element('div', 'batch-components');
+    const searchLabel = element('label', 'field-label', '組成內容（選填，可複選）');
+    const search = element('input');
+    search.type = 'search';
+    search.placeholder = '搜尋組成道具名稱或 ID…';
+    search.setAttribute('aria-label', `${entry.id} 搜尋組成道具`);
+    search.addEventListener('keydown', event => { if (event.key === 'Enter') event.preventDefault(); });
+    const options = element('div', 'options');
+    const count = element('small', '', '已選 0 個組成素材');
+    const drawOptions = () => {
+      const query = search.value.trim().toLocaleLowerCase();
+      options.replaceChildren();
+      const choices = data.items.filter(row => [row.id, row.name].some(value => value.toLocaleLowerCase().includes(query)));
+      if (!choices.length) options.append(element('p', 'muted', '沒有符合的現有道具；組成內容可留空。'));
+      for (const row of choices) {
+        const label = element('label', 'option');
+        const checkbox = element('input');
+        checkbox.type = 'checkbox';
+        checkbox.checked = entry.components.has(row.id);
+        checkbox.addEventListener('change', () => {
+          if (checkbox.checked) entry.components.add(row.id); else entry.components.delete(row.id);
+          count.textContent = `已選 ${entry.components.size} 個組成素材`;
+          entry.renderPreview();
+        });
+        label.append(checkbox, element('span', '', row.name), element('small', '', row.id));
+        options.append(label);
+      }
+    };
+    search.addEventListener('input', drawOptions);
+    picker.append(searchLabel, search, options, count);
+    const preview = element('aside', 'editor-summary batch-preview');
+    preview.setAttribute('aria-label', `${entry.id} 內容預覽`);
+    const previewName = element('h4', 'batch-preview-name');
+    const previewDescription = element('p', 'description batch-preview-description');
+    const tagHeading = element('div', 'field-label');
+    const tagList = element('div', 'summary-list');
+    const componentHeading = element('div', 'field-label');
+    const componentList = element('div', 'summary-list');
+    componentList.tabIndex = -1;
+    preview.append(element('h3', 'editor-section-title', '內容預覽'), previewName, previewDescription,
+      tagHeading, tagList, element('small', '', 'Tag 與第一筆同步，請於第一筆調整。'),
+      componentHeading, componentList, element('small', '', '搜尋不會清除已選內容，點選 × 可移除素材。'));
+    entry.renderPreview = () => {
+      previewName.textContent = entry.nameInput.value.trim() || '尚未填寫名稱';
+      previewDescription.textContent = entry.descriptionInput.value.trim() || '尚無說明';
+      tagHeading.replaceChildren(document.createTextNode('已選 Tag'), element('span', 'muted', `${selectedTags.size} 個`));
+      componentHeading.replaceChildren(document.createTextNode('已選組成'), element('span', 'muted', `${entry.components.size} 個`));
+      for (const [rows, selection, target, removable] of [[data.tags, selectedTags, tagList, false], [data.items, entry.components, componentList, true]]) {
+        target.replaceChildren();
+        if (!selection.size) target.append(element('p', 'muted', removable ? '尚未選擇組成素材' : '尚未選擇 Tag'));
+        for (const row of rows.filter(r => selection.has(r.id))) {
+          const item = element('div', 'summary-entry');
+          const name = element('span', '', row.name);
+          name.append(element('small', '', row.id));
+          item.append(name);
+          if (removable) {
+            const remove = action('×', 'icon-button', () => {
+              entry.components.delete(row.id);
+              count.textContent = `已選 ${entry.components.size} 個組成素材`;
+              drawOptions();
+              entry.renderPreview();
+              componentList.focus();
+            });
+            remove.setAttribute('aria-label', `${entry.id} 移除組成素材：${row.name}`);
+            item.append(remove);
+          }
+          target.append(item);
+        }
+      }
+    };
+    entry.nameInput.addEventListener('input', entry.renderPreview);
+    entry.descriptionInput.addEventListener('input', entry.renderPreview);
+    const fields = element('div', 'batch-grid');
+    fields.append(basics, picker, preview);
+    card.append(heading, fields);
+    batchRows.push(entry);
+    $('batch-rows').append(card);
+    drawOptions();
+    entry.renderPreview();
+    entry.nameInput.focus();
+  }
+  function openEditor(row, multiple = false) {
+    batchMode = multiple && !row;
+    batchRows = [];
+    $('batch-rows').replaceChildren();
+    $('batch-fields').hidden = !batchMode;
+    $('batch-fields').setAttribute('aria-label', `複數新增${view === 'items' ? '道具' : ' Tag'}`);
+    $('batch-note').textContent = view === 'items'
+      ? '所有道具共用第一筆的 Tag；修改第一筆 Tag 時，會同步套用至整批資料。'
+      : '按下加號追加 Tag，每筆自動產生流水號；全部驗證通過後一起儲存。';
+    $('batch-add').textContent = `＋ 再新增一筆${view === 'items' ? '道具' : ' Tag'}`;
     editing = row ? row.id : null;
     $('record-form').reset();
     $('editor-title').textContent = `${row ? '編輯' : '新增'}${view === 'items' ? '道具' : ' Tag'}`;
+    if (batchMode) $('editor-title').textContent = `複數新增${view === 'items' ? '道具' : ' Tag'}`;
     $('record-id').value = row?.id ?? WorkshopData.generateId(view, data[view]);
     $('record-id').readOnly = true;
     $('record-name').value = row?.name || '';
     $('record-description').value = row?.description || '';
     $('item-fields').hidden = view !== 'items';
+    $('editor').classList.toggle('item-editor', view === 'items');
     $('form-error').hidden = true;
-    $('tag-picker').open = false;
+    $('tag-picker').open = window.matchMedia('(min-width: 1000px)').matches;
     selectedTags = new Set(row?.tags || []);
     selectedComponents = new Set(row?.components || []);
     $('selected-tag-count').textContent = `${selectedTags.size} 個已選`;
     renderOptions('tag');
     renderOptions('component');
+    renderSummary();
     $('editor').showModal();
     $('record-name').focus();
   }
@@ -171,18 +345,39 @@
     const row = { id: editing ?? $('record-id').value, name: $('record-name').value.trim(), description: $('record-description').value.trim() };
     if (view === 'items') Object.assign(row, { tags: [...selectedTags], components: [...selectedComponents] });
     try {
-      WorkshopData.assertUniqueNames({
-        [view]: [...data[view].filter(r => r.id !== editing && r.name.trim() === row.name), row]
+      const pending = [row, ...(batchMode ? batchRows.map(entry => ({
+        id: entry.id,
+        name: entry.nameInput.value.trim(),
+        description: entry.descriptionInput.value.trim(),
+        ...(view === 'items' ? { tags: [...selectedTags], components: [...entry.components] } : {})
+      })) : [])];
+      const errors = [];
+      pending.forEach((record, index) => {
+        try {
+          WorkshopData.validate({ ...data, [view]: [...data[view].filter(r => r.id !== editing), record] });
+        } catch (error) { errors.push(`第 ${index + 1} 筆（${record.id}）：${error.message}`); }
       });
-      const next = { ...data, [view]: editing === null ? [...data[view], row] : data[view].map(r => r.id === editing ? row : r) };
+      if (errors.length) throw new Error(errors.join('\n'));
+      const names = new Set(pending.map(record => record.name));
+      WorkshopData.assertUniqueNames({
+        [view]: [...data[view].filter(r => r.id !== editing && names.has(r.name.trim())), ...pending]
+      });
+      const next = { ...data, [view]: editing === null ? [...data[view], ...pending] : data[view].map(r => r.id === editing ? row : r) };
       commit(next);
       $('editor').close();
-      notify('資料已儲存');
-    } catch (error) { $('form-error').textContent = error.message; $('form-error').hidden = false; }
+      notify(batchMode ? `已儲存 ${pending.length} 筆${view === 'items' ? '道具' : ' Tag'}` : '資料已儲存');
+    } catch (error) {
+      $('form-error').textContent = error.message;
+      $('form-error').hidden = false;
+      $('form-error').scrollIntoView({ block: 'center' });
+    }
   });
   for (const kind of ['items', 'tags']) $(`${kind}-tab`).addEventListener('click', () => { view = kind; $('search').value = ''; render(); });
   $('add-button').addEventListener('click', () => openEditor());
   $('add-bottom-button').addEventListener('click', () => openEditor());
+  for (const id of ['add-button-batch', 'add-bottom-button-batch']) $(id).addEventListener('click', () => openEditor(null, true));
+  $('batch-add').addEventListener('click', addBatchRow);
+  for (const id of ['record-name', 'record-description']) $(id).addEventListener('input', renderSummary);
   $('search').addEventListener('input', render);
   $('tag-filter').addEventListener('change', render);
   for (const kind of ['tag', 'component']) $(`${kind}-search`).addEventListener('input', () => renderOptions(kind));

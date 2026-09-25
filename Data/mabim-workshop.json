@@ -1,0 +1,9556 @@
+{
+  "version": 1,
+  "tags": [
+    {
+      "id": "tag-0001",
+      "name": "武器",
+      "description": ""
+    },
+    {
+      "id": "tag-0002",
+      "name": "戰士",
+      "description": ""
+    },
+    {
+      "id": "tag-0003",
+      "name": "材料",
+      "description": ""
+    },
+    {
+      "id": "tag-0004",
+      "name": "公用保管箱",
+      "description": ""
+    },
+    {
+      "id": "tag-0005",
+      "name": "金屬加工",
+      "description": ""
+    },
+    {
+      "id": "tag-0006",
+      "name": "木材加工",
+      "description": ""
+    },
+    {
+      "id": "tag-0007",
+      "name": "皮革加工",
+      "description": ""
+    },
+    {
+      "id": "tag-0008",
+      "name": "布料加工",
+      "description": ""
+    },
+    {
+      "id": "tag-0009",
+      "name": "藥品加工",
+      "description": ""
+    },
+    {
+      "id": "tag-0010",
+      "name": "食品加工",
+      "description": ""
+    },
+    {
+      "id": "tag-0011",
+      "name": "大劍戰士",
+      "description": ""
+    },
+    {
+      "id": "tag-0012",
+      "name": "劍術士",
+      "description": ""
+    },
+    {
+      "id": "tag-0013",
+      "name": "弓手",
+      "description": ""
+    },
+    {
+      "id": "tag-0014",
+      "name": "長弓兵",
+      "description": ""
+    },
+    {
+      "id": "tag-0015",
+      "name": "弩手",
+      "description": ""
+    },
+    {
+      "id": "tag-0016",
+      "name": "魔法師",
+      "description": ""
+    },
+    {
+      "id": "tag-0017",
+      "name": "冰霜術士",
+      "description": ""
+    },
+    {
+      "id": "tag-0018",
+      "name": "火焰術士",
+      "description": ""
+    },
+    {
+      "id": "tag-0019",
+      "name": "電擊術士",
+      "description": ""
+    },
+    {
+      "id": "tag-0020",
+      "name": "治癒師",
+      "description": ""
+    },
+    {
+      "id": "tag-0021",
+      "name": "祭司",
+      "description": ""
+    },
+    {
+      "id": "tag-0022",
+      "name": "修道士",
+      "description": ""
+    },
+    {
+      "id": "tag-0023",
+      "name": "吟遊詩人",
+      "description": ""
+    },
+    {
+      "id": "tag-0024",
+      "name": "樂師",
+      "description": ""
+    },
+    {
+      "id": "tag-0025",
+      "name": "舞者",
+      "description": ""
+    },
+    {
+      "id": "tag-0026",
+      "name": "盜賊",
+      "description": ""
+    },
+    {
+      "id": "tag-0027",
+      "name": "雙刀客",
+      "description": ""
+    },
+    {
+      "id": "tag-0028",
+      "name": "格鬥家",
+      "description": ""
+    },
+    {
+      "id": "tag-0029",
+      "name": "防具",
+      "description": ""
+    },
+    {
+      "id": "tag-0030",
+      "name": "重甲",
+      "description": ""
+    },
+    {
+      "id": "tag-0031",
+      "name": "輕甲",
+      "description": ""
+    },
+    {
+      "id": "tag-0032",
+      "name": "布衣",
+      "description": ""
+    },
+    {
+      "id": "tag-0033",
+      "name": "飾品",
+      "description": ""
+    },
+    {
+      "id": "tag-0034",
+      "name": "項鍊",
+      "description": ""
+    },
+    {
+      "id": "tag-0035",
+      "name": "戒指",
+      "description": ""
+    },
+    {
+      "id": "tag-0036",
+      "name": "工具",
+      "description": ""
+    },
+    {
+      "id": "tag-0037",
+      "name": "道具",
+      "description": ""
+    },
+    {
+      "id": "tag-0038",
+      "name": "藥品製作台",
+      "description": ""
+    },
+    {
+      "id": "tag-0039",
+      "name": "恢復",
+      "description": ""
+    },
+    {
+      "id": "tag-0040",
+      "name": "強化",
+      "description": ""
+    },
+    {
+      "id": "tag-0041",
+      "name": "染色劑",
+      "description": ""
+    },
+    {
+      "id": "tag-0042",
+      "name": "食物製作台",
+      "description": ""
+    },
+    {
+      "id": "tag-0043",
+      "name": "其他食物",
+      "description": ""
+    },
+    {
+      "id": "tag-0044",
+      "name": "多用途製作台",
+      "description": ""
+    },
+    {
+      "id": "tag-0045",
+      "name": "魔法榴彈",
+      "description": ""
+    },
+    {
+      "id": "tag-0046",
+      "name": "一般材料",
+      "description": ""
+    },
+    {
+      "id": "tag-0047",
+      "name": "營火",
+      "description": ""
+    },
+    {
+      "id": "tag-0048",
+      "name": "食物",
+      "description": ""
+    },
+    {
+      "id": "tag-0049",
+      "name": "簡便",
+      "description": ""
+    },
+    {
+      "id": "tag-0050",
+      "name": "力量特化",
+      "description": ""
+    },
+    {
+      "id": "tag-0051",
+      "name": "技巧特化",
+      "description": ""
+    },
+    {
+      "id": "tag-0052",
+      "name": "智力特化",
+      "description": ""
+    },
+    {
+      "id": "tag-0053",
+      "name": "共享",
+      "description": ""
+    }
+  ],
+  "items": [
+    {
+      "id": "item-0001",
+      "name": "短劍",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0002"
+      ],
+      "components": [
+        "item-0002",
+        "item-0006"
+      ]
+    },
+    {
+      "id": "item-0002",
+      "name": "鐵錠",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0005"
+      ],
+      "components": [
+        "item-0003",
+        "item-0004"
+      ]
+    },
+    {
+      "id": "item-0003",
+      "name": "礦石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0005"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0004",
+      "name": "鐵礦石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0005"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0005",
+      "name": "原木",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006",
+        "tag-0037",
+        "tag-0044",
+        "tag-0047"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0006",
+      "name": "木材",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006"
+      ],
+      "components": [
+        "item-0005"
+      ]
+    },
+    {
+      "id": "item-0007",
+      "name": "煤炭",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0005"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0008",
+      "name": "鋼錠",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0005"
+      ],
+      "components": [
+        "item-0002",
+        "item-0007"
+      ]
+    },
+    {
+      "id": "item-0009",
+      "name": "銅礦石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0005"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0010",
+      "name": "合金鋼錠",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0005"
+      ],
+      "components": [
+        "item-0007",
+        "item-0008",
+        "item-0009"
+      ]
+    },
+    {
+      "id": "item-0011",
+      "name": "白銅礦石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0005"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0012",
+      "name": "特殊鋼錠",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0005"
+      ],
+      "components": [
+        "item-0007",
+        "item-0010",
+        "item-0011"
+      ]
+    },
+    {
+      "id": "item-0013",
+      "name": "銀礦石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0005"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0014",
+      "name": "銀合金錠",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0005"
+      ],
+      "components": [
+        "item-0007",
+        "item-0012",
+        "item-0013"
+      ]
+    },
+    {
+      "id": "item-0015",
+      "name": "樹液",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0016",
+      "name": "木材+",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006"
+      ],
+      "components": [
+        "item-0006",
+        "item-0015"
+      ]
+    },
+    {
+      "id": "item-0017",
+      "name": "高級原木",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006",
+        "tag-0037",
+        "tag-0044",
+        "tag-0047"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0018",
+      "name": "高級木材",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006"
+      ],
+      "components": [
+        "item-0015",
+        "item-0016",
+        "item-0017"
+      ]
+    },
+    {
+      "id": "item-0019",
+      "name": "高級原木+",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006",
+        "tag-0037",
+        "tag-0044",
+        "tag-0047"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0020",
+      "name": "高級木材+",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006"
+      ],
+      "components": [
+        "item-0015",
+        "item-0018",
+        "item-0019"
+      ]
+    },
+    {
+      "id": "item-0021",
+      "name": "最高級原木",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0022",
+      "name": "最高級木材",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006"
+      ],
+      "components": [
+        "item-0015",
+        "item-0020",
+        "item-0021"
+      ]
+    },
+    {
+      "id": "item-0023",
+      "name": "生皮",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0007"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0024",
+      "name": "皮革",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0007"
+      ],
+      "components": [
+        "item-0023"
+      ]
+    },
+    {
+      "id": "item-0025",
+      "name": "樹枝",
+      "description": "分解後可以取得單寧粉末",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0047"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0026",
+      "name": "單寧粉末",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0007"
+      ],
+      "components": [
+        "item-0025"
+      ]
+    },
+    {
+      "id": "item-0027",
+      "name": "皮革+",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0007"
+      ],
+      "components": [
+        "item-0024",
+        "item-0026"
+      ]
+    },
+    {
+      "id": "item-0028",
+      "name": "高級生皮",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0007"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0029",
+      "name": "高級皮革",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0007"
+      ],
+      "components": [
+        "item-0026",
+        "item-0027",
+        "item-0028"
+      ]
+    },
+    {
+      "id": "item-0030",
+      "name": "高級生皮+",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0007"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0031",
+      "name": "高級皮革+",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0007"
+      ],
+      "components": [
+        "item-0026",
+        "item-0029",
+        "item-0030"
+      ]
+    },
+    {
+      "id": "item-0032",
+      "name": "最高級生皮",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0007"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0033",
+      "name": "最高級皮革",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0007"
+      ],
+      "components": [
+        "item-0026",
+        "item-0031",
+        "item-0032"
+      ]
+    },
+    {
+      "id": "item-0034",
+      "name": "羊毛",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0035",
+      "name": "布料",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": [
+        "item-0034"
+      ]
+    },
+    {
+      "id": "item-0036",
+      "name": "蜘蛛網",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0037",
+      "name": "絲綢",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": [
+        "item-0036"
+      ]
+    },
+    {
+      "id": "item-0038",
+      "name": "布料+",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": [
+        "item-0034",
+        "item-0035"
+      ]
+    },
+    {
+      "id": "item-0039",
+      "name": "高級羊毛",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0040",
+      "name": "高級布料",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": [
+        "item-0034",
+        "item-0038",
+        "item-0039"
+      ]
+    },
+    {
+      "id": "item-0041",
+      "name": "壯壯蘑菇",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0042",
+      "name": "壯壯蘑菇粉末",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0041"
+      ]
+    },
+    {
+      "id": "item-0043",
+      "name": "壯壯蘑菇孢子",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": [
+        "item-0041",
+        "item-0044"
+      ]
+    },
+    {
+      "id": "item-0044",
+      "name": "紙",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0045",
+      "name": "壯壯蘑菇汁液",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": [
+        "item-0043",
+        "item-0046"
+      ]
+    },
+    {
+      "id": "item-0046",
+      "name": "裝水的杯子",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0041",
+        "tag-0042",
+        "tag-0043",
+        "tag-0048",
+        "tag-0049",
+        "tag-0051",
+        "tag-0052",
+        "tag-0053"
+      ],
+      "components": [
+        "item-0057"
+      ]
+    },
+    {
+      "id": "item-0047",
+      "name": "高級絲綢",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": [
+        "item-0037",
+        "item-0045"
+      ]
+    },
+    {
+      "id": "item-0048",
+      "name": "高級羊毛+",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0049",
+      "name": "高級布料+",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": [
+        "item-0034",
+        "item-0040",
+        "item-0048"
+      ]
+    },
+    {
+      "id": "item-0050",
+      "name": "最高級羊毛",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0051",
+      "name": "最高級布料",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": [
+        "item-0034",
+        "item-0049",
+        "item-0050"
+      ]
+    },
+    {
+      "id": "item-0052",
+      "name": "最高級蜘蛛網",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0053",
+      "name": "最高級絲綢",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": [
+        "item-0045",
+        "item-0047",
+        "item-0052"
+      ]
+    },
+    {
+      "id": "item-0054",
+      "name": "新芽蘑菇",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0055",
+      "name": "新芽蘑菇孢子",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": [
+        "item-0044",
+        "item-0054"
+      ]
+    },
+    {
+      "id": "item-0056",
+      "name": "新芽蘑菇汁液",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0046",
+        "item-0055"
+      ]
+    },
+    {
+      "id": "item-0057",
+      "name": "空瓶",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0058",
+      "name": "咻咻蘑菇",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0036",
+        "tag-0037",
+        "tag-0038"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0059",
+      "name": "咻咻蘑菇孢子",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": [
+        "item-0044",
+        "item-0058"
+      ]
+    },
+    {
+      "id": "item-0060",
+      "name": "咻咻蘑菇汁液",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0046",
+        "item-0059"
+      ]
+    },
+    {
+      "id": "item-0061",
+      "name": "幽靈螢火蟲",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0062",
+      "name": "魔力藥草",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0063",
+      "name": "黏土",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0064",
+      "name": "光輝結晶",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0038",
+        "tag-0039",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0061",
+        "item-0062",
+        "item-0063"
+      ]
+    },
+    {
+      "id": "item-0065",
+      "name": "夕陽蝴蝶",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0066",
+      "name": "火苗結晶",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0036",
+        "tag-0037",
+        "tag-0038",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0062",
+        "item-0063",
+        "item-0065"
+      ]
+    },
+    {
+      "id": "item-0067",
+      "name": "躲躲花",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0068",
+      "name": "躲躲花粉末",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0067"
+      ]
+    },
+    {
+      "id": "item-0069",
+      "name": "淨淨蘑菇",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0070",
+      "name": "淨淨蘑菇孢子",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": [
+        "item-0044",
+        "item-0069"
+      ]
+    },
+    {
+      "id": "item-0071",
+      "name": "淨淨蘑菇汁液",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0046",
+        "item-0070"
+      ]
+    },
+    {
+      "id": "item-0072",
+      "name": "白霜金龜子",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0073",
+      "name": "冰霜結晶",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0062",
+        "item-0063",
+        "item-0072"
+      ]
+    },
+    {
+      "id": "item-0074",
+      "name": "蘊含魔力的石頭",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0075",
+      "name": "閃閃發光的苔蘚",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0076",
+      "name": "魔力起爆劑",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0062",
+        "item-0074",
+        "item-0075"
+      ]
+    },
+    {
+      "id": "item-0077",
+      "name": "憤怒的碎片",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0078",
+      "name": "封印結晶",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0079",
+      "name": "封印的憤怒碎片",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": [
+        "item-0044",
+        "item-0077",
+        "item-0078"
+      ]
+    },
+    {
+      "id": "item-0080",
+      "name": "遺忘的碎片",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0081",
+      "name": "封印的遺忘碎片",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": [
+        "item-0044",
+        "item-0078",
+        "item-0080"
+      ]
+    },
+    {
+      "id": "item-0082",
+      "name": "野性的碎片",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0083",
+      "name": "封印的野性碎片",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": [
+        "item-0044",
+        "item-0078",
+        "item-0082"
+      ]
+    },
+    {
+      "id": "item-0084",
+      "name": "傷痕花",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0085",
+      "name": "傷痕花粉末",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0084"
+      ]
+    },
+    {
+      "id": "item-0086",
+      "name": "增幅蘑菇",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0087",
+      "name": "增幅蘑菇孢子",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": [
+        "item-0044",
+        "item-0086"
+      ]
+    },
+    {
+      "id": "item-0088",
+      "name": "增幅蘑菇汁液",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0060",
+        "item-0087"
+      ]
+    },
+    {
+      "id": "item-0089",
+      "name": "落葉蛾",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0090",
+      "name": "電氣結晶",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0062",
+        "item-0063",
+        "item-0089"
+      ]
+    },
+    {
+      "id": "item-0091",
+      "name": "雞蛋",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0049",
+        "tag-0052"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0092",
+      "name": "食用油",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0093",
+      "name": "美乃滋",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050",
+        "tag-0051",
+        "tag-0052",
+        "tag-0053"
+      ],
+      "components": [
+        "item-0091",
+        "item-0092"
+      ]
+    },
+    {
+      "id": "item-0094",
+      "name": "小麥",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0095",
+      "name": "麵粉",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050",
+        "tag-0051",
+        "tag-0052",
+        "tag-0053"
+      ],
+      "components": [
+        "item-0094"
+      ]
+    },
+    {
+      "id": "item-0096",
+      "name": "牛奶",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050",
+        "tag-0051"
+      ],
+      "components": [
+        "item-0057"
+      ]
+    },
+    {
+      "id": "item-0097",
+      "name": "鹽",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0049",
+        "tag-0050",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0098",
+      "name": "起司",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050",
+        "tag-0051",
+        "tag-0052"
+      ],
+      "components": [
+        "item-0096",
+        "item-0097"
+      ]
+    },
+    {
+      "id": "item-0099",
+      "name": "麵",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010"
+      ],
+      "components": [
+        "item-0046",
+        "item-0091",
+        "item-0095"
+      ]
+    },
+    {
+      "id": "item-0100",
+      "name": "糖",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051",
+        "tag-0052"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0101",
+      "name": "鮮奶油",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050",
+        "tag-0052"
+      ],
+      "components": [
+        "item-0091",
+        "item-0096",
+        "item-0100"
+      ]
+    },
+    {
+      "id": "item-0102",
+      "name": "黃豆",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0103",
+      "name": "泡水的豆子",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010"
+      ],
+      "components": [
+        "item-0046",
+        "item-0102"
+      ]
+    },
+    {
+      "id": "item-0104",
+      "name": "豆腐",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051"
+      ],
+      "components": [
+        "item-0035",
+        "item-0046",
+        "item-0097",
+        "item-0103"
+      ]
+    },
+    {
+      "id": "item-0105",
+      "name": "豆乳",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0052"
+      ],
+      "components": [
+        "item-0046",
+        "item-0092",
+        "item-0097",
+        "item-0103"
+      ]
+    },
+    {
+      "id": "item-0106",
+      "name": "大塊肉",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0107",
+      "name": "大蒜",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050",
+        "tag-0051",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0108",
+      "name": "胡椒",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050",
+        "tag-0051",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0109",
+      "name": "藥草",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0037",
+        "tag-0042",
+        "tag-0043",
+        "tag-0048",
+        "tag-0050",
+        "tag-0051",
+        "tag-0052"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0110",
+      "name": "熟成的大塊肉",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0010",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": [
+        "item-0097",
+        "item-0106",
+        "item-0107",
+        "item-0108",
+        "item-0109"
+      ]
+    },
+    {
+      "id": "item-0111",
+      "name": "單手斧",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0002"
+      ],
+      "components": [
+        "item-0008",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0112",
+      "name": "短劍S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0002"
+      ],
+      "components": [
+        "item-0010",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0113",
+      "name": "單手斧S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0002"
+      ],
+      "components": [
+        "item-0010",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0114",
+      "name": "手半劍S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0002"
+      ],
+      "components": [
+        "item-0012",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0115",
+      "name": "短劍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0002"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0116",
+      "name": "抗魔石粉末",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0003",
+        "tag-0004"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0117",
+      "name": "闊劍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0002"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0118",
+      "name": "支配的圖紙(武器)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0002",
+        "tag-0003",
+        "tag-0004",
+        "tag-0011",
+        "tag-0012",
+        "tag-0013",
+        "tag-0014",
+        "tag-0015",
+        "tag-0016",
+        "tag-0017",
+        "tag-0018",
+        "tag-0019",
+        "tag-0020",
+        "tag-0021",
+        "tag-0022",
+        "tag-0023",
+        "tag-0024",
+        "tag-0025",
+        "tag-0026",
+        "tag-0027",
+        "tag-0028"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0119",
+      "name": "單手斧SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0002"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0120",
+      "name": "高級抗魔石粉末",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0003",
+        "tag-0004"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0121",
+      "name": "單手斧SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0002"
+      ],
+      "components": [
+        "item-0014",
+        "item-0020",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0122",
+      "name": "高級支配的圖紙(武器)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0002",
+        "tag-0003",
+        "tag-0004",
+        "tag-0011",
+        "tag-0012",
+        "tag-0013",
+        "tag-0014",
+        "tag-0015",
+        "tag-0016",
+        "tag-0017",
+        "tag-0018",
+        "tag-0019",
+        "tag-0020",
+        "tag-0021",
+        "tag-0022",
+        "tag-0023",
+        "tag-0024",
+        "tag-0025",
+        "tag-0026",
+        "tag-0027",
+        "tag-0028"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0123",
+      "name": "手半劍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0002"
+      ],
+      "components": [
+        "item-0014",
+        "item-0020",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0124",
+      "name": "雙手巨劍",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0011"
+      ],
+      "components": [
+        "item-0002",
+        "item-0006"
+      ]
+    },
+    {
+      "id": "item-0125",
+      "name": "雙手剁刀",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0011"
+      ],
+      "components": [
+        "item-0008",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0126",
+      "name": "雙手巨劍S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0011"
+      ],
+      "components": [
+        "item-0010",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0127",
+      "name": "雙手剁刀S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0011"
+      ],
+      "components": [
+        "item-0010",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0128",
+      "name": "灰岩重劍S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0011"
+      ],
+      "components": [
+        "item-0012",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0129",
+      "name": "雙手巨劍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0011"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0130",
+      "name": "巨刃SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0011"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0131",
+      "name": "雙手剁刀SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0011"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0132",
+      "name": "雙手剁刀SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0011"
+      ],
+      "components": [
+        "item-0014",
+        "item-0020",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0133",
+      "name": "灰岩重劍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0011"
+      ],
+      "components": [
+        "item-0014",
+        "item-0020",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0134",
+      "name": "長佩劍",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0012"
+      ],
+      "components": [
+        "item-0002",
+        "item-0024"
+      ]
+    },
+    {
+      "id": "item-0135",
+      "name": "新月佩劍",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0012"
+      ],
+      "components": [
+        "item-0008",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0136",
+      "name": "長佩劍S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0012"
+      ],
+      "components": [
+        "item-0010",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0137",
+      "name": "新月佩劍S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0012"
+      ],
+      "components": [
+        "item-0010",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0138",
+      "name": "波紋佩劍S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0012"
+      ],
+      "components": [
+        "item-0012",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0139",
+      "name": "長佩劍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0012"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0140",
+      "name": "曲佩劍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0012"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0141",
+      "name": "新月佩劍SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0012"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0142",
+      "name": "新月佩劍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0012"
+      ],
+      "components": [
+        "item-0012",
+        "item-0014",
+        "item-0031",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0143",
+      "name": "波紋佩劍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0012"
+      ],
+      "components": [
+        "item-0012",
+        "item-0014",
+        "item-0031",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0144",
+      "name": "短弓",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0013"
+      ],
+      "components": [
+        "item-0006",
+        "item-0024"
+      ]
+    },
+    {
+      "id": "item-0145",
+      "name": "複合弓",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0013"
+      ],
+      "components": [
+        "item-0016",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0146",
+      "name": "短弓S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0013"
+      ],
+      "components": [
+        "item-0018",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0147",
+      "name": "複合弓S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0013"
+      ],
+      "components": [
+        "item-0018",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0148",
+      "name": "加固弓S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0013"
+      ],
+      "components": [
+        "item-0020",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0149",
+      "name": "短弓SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0013"
+      ],
+      "components": [
+        "item-0020",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0150",
+      "name": "曲弓SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0013"
+      ],
+      "components": [
+        "item-0020",
+        "item-0031",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0151",
+      "name": "複合弓SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0013"
+      ],
+      "components": [
+        "item-0020",
+        "item-0031",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0152",
+      "name": "複合弓SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0013"
+      ],
+      "components": [
+        "item-0022",
+        "item-0031",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0153",
+      "name": "加固弓SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0013"
+      ],
+      "components": [
+        "item-0022",
+        "item-0031",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0154",
+      "name": "輕盈長弓",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0014"
+      ],
+      "components": [
+        "item-0006",
+        "item-0024"
+      ]
+    },
+    {
+      "id": "item-0155",
+      "name": "巨木長弓",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0014"
+      ],
+      "components": [
+        "item-0016",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0156",
+      "name": "輕盈長弓S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0014"
+      ],
+      "components": [
+        "item-0018",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0157",
+      "name": "巨木長弓S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0014"
+      ],
+      "components": [
+        "item-0018",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0158",
+      "name": "獵人氏族長弓S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0014"
+      ],
+      "components": [
+        "item-0020",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0159",
+      "name": "輕盈長弓SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0014"
+      ],
+      "components": [
+        "item-0020",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0160",
+      "name": "複合式長弓SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0014"
+      ],
+      "components": [
+        "item-0020",
+        "item-0031",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0161",
+      "name": "巨木長弓SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0014"
+      ],
+      "components": [
+        "item-0020",
+        "item-0031",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0162",
+      "name": "巨木長弓SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0014"
+      ],
+      "components": [
+        "item-0022",
+        "item-0031",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0163",
+      "name": "獵人氏族長弓SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0014"
+      ],
+      "components": [
+        "item-0022",
+        "item-0031",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0164",
+      "name": "輕型弩",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0015"
+      ],
+      "components": [
+        "item-0006",
+        "item-0008"
+      ]
+    },
+    {
+      "id": "item-0165",
+      "name": "重型弩",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0015"
+      ],
+      "components": [
+        "item-0008",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0166",
+      "name": "輕型弩S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0015"
+      ],
+      "components": [
+        "item-0008",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0167",
+      "name": "重型弩S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0015"
+      ],
+      "components": [
+        "item-0010",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0168",
+      "name": "古代弩S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0015"
+      ],
+      "components": [
+        "item-0010",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0169",
+      "name": "輕型弩SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0015"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0170",
+      "name": "凱爾特弩SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0015"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0171",
+      "name": "重型弩SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0015"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0172",
+      "name": "重型弩SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0015"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0022",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0173",
+      "name": "古代弩SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0015"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0022",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0174",
+      "name": "木製魔杖",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0016"
+      ],
+      "components": [
+        "item-0006",
+        "item-0024"
+      ]
+    },
+    {
+      "id": "item-0175",
+      "name": "凱爾特魔杖",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0016"
+      ],
+      "components": [
+        "item-0016",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0176",
+      "name": "木製魔杖S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0016"
+      ],
+      "components": [
+        "item-0018",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0177",
+      "name": "凱爾特魔杖S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0016"
+      ],
+      "components": [
+        "item-0018",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0178",
+      "name": "木製魔杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0016"
+      ],
+      "components": [
+        "item-0020",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0179",
+      "name": "曲木魔杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0016"
+      ],
+      "components": [
+        "item-0020",
+        "item-0031",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0180",
+      "name": "凱爾特魔杖SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0016"
+      ],
+      "components": [
+        "item-0020",
+        "item-0031",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0181",
+      "name": "凱爾特魔杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0016"
+      ],
+      "components": [
+        "item-0020",
+        "item-0022",
+        "item-0031",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0182",
+      "name": "水晶魔杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0016"
+      ],
+      "components": [
+        "item-0020",
+        "item-0022",
+        "item-0031",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0183",
+      "name": "雪霜法球",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0017"
+      ],
+      "components": [
+        "item-0002",
+        "item-0006"
+      ]
+    },
+    {
+      "id": "item-0184",
+      "name": "冰川法球",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0017"
+      ],
+      "components": [
+        "item-0008",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0185",
+      "name": "雪霜法球S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0017"
+      ],
+      "components": [
+        "item-0008",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0186",
+      "name": "冰川法球S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0017"
+      ],
+      "components": [
+        "item-0010",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0187",
+      "name": "凜冬之息法球S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0017"
+      ],
+      "components": [
+        "item-0010",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0188",
+      "name": "雪霜法球SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0017"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0189",
+      "name": "霜刺法球SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0017"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0190",
+      "name": "冰川法球SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0017"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0191",
+      "name": "冰川法球SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0017"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0022",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0192",
+      "name": "凜冬之息法球SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0017"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0022",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0193",
+      "name": "圓首手杖",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0018"
+      ],
+      "components": [
+        "item-0002",
+        "item-0006"
+      ]
+    },
+    {
+      "id": "item-0194",
+      "name": "聖矛手杖",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0018"
+      ],
+      "components": [
+        "item-0008",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0195",
+      "name": "圓首手杖S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0018"
+      ],
+      "components": [
+        "item-0010",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0196",
+      "name": "聖矛手杖S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0018"
+      ],
+      "components": [
+        "item-0010",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0197",
+      "name": "燧石手杖S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0018"
+      ],
+      "components": [
+        "item-0012",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0198",
+      "name": "圓首手杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0018"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0199",
+      "name": "錘首手杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0018"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0200",
+      "name": "聖矛手杖SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0018"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0201",
+      "name": "聖矛手杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0018"
+      ],
+      "components": [
+        "item-0014",
+        "item-0020",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0202",
+      "name": "燧石手杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0018"
+      ],
+      "components": [
+        "item-0014",
+        "item-0020",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0203",
+      "name": "圓盤線圈",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0019"
+      ],
+      "components": [
+        "item-0002",
+        "item-0024"
+      ]
+    },
+    {
+      "id": "item-0204",
+      "name": "磁力線圈",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0019"
+      ],
+      "components": [
+        "item-0008",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0205",
+      "name": "圓盤線圈S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0019"
+      ],
+      "components": [
+        "item-0010",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0206",
+      "name": "磁力線圈S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0019"
+      ],
+      "components": [
+        "item-0010",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0207",
+      "name": "電漿線圈S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0019"
+      ],
+      "components": [
+        "item-0012",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0208",
+      "name": "圓盤線圈SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0019"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0209",
+      "name": "雷霆線圈SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0019"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0210",
+      "name": "磁力線圈SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0019"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0211",
+      "name": "磁力線圈SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0019"
+      ],
+      "components": [
+        "item-0014",
+        "item-0031",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0212",
+      "name": "電漿線圈SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0019"
+      ],
+      "components": [
+        "item-0014",
+        "item-0031",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0213",
+      "name": "大理石治癒魔杖",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0020"
+      ],
+      "components": [
+        "item-0002",
+        "item-0006"
+      ]
+    },
+    {
+      "id": "item-0214",
+      "name": "蓮華治癒魔杖",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0020"
+      ],
+      "components": [
+        "item-0008",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0215",
+      "name": "大理石治癒魔杖S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0020"
+      ],
+      "components": [
+        "item-0008",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0216",
+      "name": "蓮華治癒魔杖S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0020"
+      ],
+      "components": [
+        "item-0010",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0217",
+      "name": "水晶治癒魔杖S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0020"
+      ],
+      "components": [
+        "item-0010",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0218",
+      "name": "大理石治癒魔杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0020"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0219",
+      "name": "曲木治癒魔杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0020"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0220",
+      "name": "蓮華治癒魔杖SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0020"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0221",
+      "name": "蓮華治癒魔杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0020"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0022",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0222",
+      "name": "水晶治癒魔杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0020"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0022",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0223",
+      "name": "水晶法杖",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0021"
+      ],
+      "components": [
+        "item-0002",
+        "item-0006"
+      ]
+    },
+    {
+      "id": "item-0224",
+      "name": "聖翼法杖",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0021"
+      ],
+      "components": [
+        "item-0008",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0225",
+      "name": "水晶法杖S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0021"
+      ],
+      "components": [
+        "item-0008",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0226",
+      "name": "聖翼法杖S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0021"
+      ],
+      "components": [
+        "item-0010",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0227",
+      "name": "神諭裁決法杖S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0021"
+      ],
+      "components": [
+        "item-0010",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0228",
+      "name": "水晶法杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0021"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0229",
+      "name": "十字紋章法杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0021"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0230",
+      "name": "聖翼法杖SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0021"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0231",
+      "name": "聖翼法杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0021"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0022",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0232",
+      "name": "神諭裁決法杖SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0021"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0022",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0233",
+      "name": "鈍首長棍",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0022"
+      ],
+      "components": [
+        "item-0002",
+        "item-0006"
+      ]
+    },
+    {
+      "id": "item-0234",
+      "name": "神聖長棍",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0022"
+      ],
+      "components": [
+        "item-0008",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0235",
+      "name": "鈍首長棍S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0022"
+      ],
+      "components": [
+        "item-0010",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0236",
+      "name": "神聖長棍S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0022"
+      ],
+      "components": [
+        "item-0010",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0237",
+      "name": "古代長棍S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0022"
+      ],
+      "components": [
+        "item-0012",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0238",
+      "name": "鈍首長棍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0022"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0239",
+      "name": "古代長棍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0022"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0240",
+      "name": "神聖長棍SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0022"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0241",
+      "name": "神聖長棍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0022"
+      ],
+      "components": [
+        "item-0014",
+        "item-0020",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0242",
+      "name": "古代長棍SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0022"
+      ],
+      "components": [
+        "item-0014",
+        "item-0020",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0243",
+      "name": "凱爾特魯特琴",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0023"
+      ],
+      "components": [
+        "item-0002",
+        "item-0006"
+      ]
+    },
+    {
+      "id": "item-0244",
+      "name": "平背魯特琴",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0023"
+      ],
+      "components": [
+        "item-0008",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0245",
+      "name": "凱爾特魯特琴S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0023"
+      ],
+      "components": [
+        "item-0008",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0246",
+      "name": "平背魯特琴S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0023"
+      ],
+      "components": [
+        "item-0010",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0247",
+      "name": "淚滴魯特琴S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0023"
+      ],
+      "components": [
+        "item-0010",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0248",
+      "name": "凱爾特魯特琴SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0023"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0249",
+      "name": "長頸魯特琴SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0023"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0250",
+      "name": "平背魯特琴SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0023"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0251",
+      "name": "平背魯特琴SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0023"
+      ],
+      "components": [
+        "item-0012",
+        "item-0022",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0252",
+      "name": "淚滴魯特琴SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0023"
+      ],
+      "components": [
+        "item-0012",
+        "item-0022",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0253",
+      "name": "曲型豎琴",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0024"
+      ],
+      "components": [
+        "item-0002",
+        "item-0006"
+      ]
+    },
+    {
+      "id": "item-0254",
+      "name": "優雅豎琴",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0024"
+      ],
+      "components": [
+        "item-0008",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0255",
+      "name": "曲型豎琴S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0024"
+      ],
+      "components": [
+        "item-0008",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0256",
+      "name": "優雅豎琴S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0024"
+      ],
+      "components": [
+        "item-0010",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0257",
+      "name": "古典豎琴S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0024"
+      ],
+      "components": [
+        "item-0010",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0258",
+      "name": "曲型豎琴SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0024"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0259",
+      "name": "圓型豎琴SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0024"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0260",
+      "name": "優雅豎琴SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0024"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0261",
+      "name": "優雅豎琴SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0024"
+      ],
+      "components": [
+        "item-0012",
+        "item-0022",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0262",
+      "name": "古典豎琴SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0024"
+      ],
+      "components": [
+        "item-0012",
+        "item-0022",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0263",
+      "name": "花瓣摺扇",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0025"
+      ],
+      "components": [
+        "item-0002",
+        "item-0006"
+      ]
+    },
+    {
+      "id": "item-0264",
+      "name": "古代環刃",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0025"
+      ],
+      "components": [
+        "item-0008",
+        "item-0016"
+      ]
+    },
+    {
+      "id": "item-0265",
+      "name": "花瓣摺扇S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0025"
+      ],
+      "components": [
+        "item-0008",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0266",
+      "name": "古代環刃S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0025"
+      ],
+      "components": [
+        "item-0010",
+        "item-0018"
+      ]
+    },
+    {
+      "id": "item-0267",
+      "name": "羽毛摺扇S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0025"
+      ],
+      "components": [
+        "item-0010",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0268",
+      "name": "花瓣摺扇SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0025"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020"
+      ]
+    },
+    {
+      "id": "item-0269",
+      "name": "尖刺鈴鼓SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0025"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0270",
+      "name": "古代環刃SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0025"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0271",
+      "name": "古代環刃SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0025"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0022",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0272",
+      "name": "羽毛摺扇SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0025"
+      ],
+      "components": [
+        "item-0012",
+        "item-0020",
+        "item-0022",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0273",
+      "name": "平刃匕首",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0026"
+      ],
+      "components": [
+        "item-0002",
+        "item-0024"
+      ]
+    },
+    {
+      "id": "item-0274",
+      "name": "錐刺匕首",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0026"
+      ],
+      "components": [
+        "item-0008",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0275",
+      "name": "平刃匕首S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0026"
+      ],
+      "components": [
+        "item-0010",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0276",
+      "name": "錐刺匕首S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0026"
+      ],
+      "components": [
+        "item-0010",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0277",
+      "name": "新月匕首S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0026"
+      ],
+      "components": [
+        "item-0012",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0278",
+      "name": "平刃匕首SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0026"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0279",
+      "name": "圓盤匕首SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0026"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0280",
+      "name": "錐刺匕首SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0026"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0281",
+      "name": "錐刺匕首SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0026"
+      ],
+      "components": [
+        "item-0012",
+        "item-0014",
+        "item-0031",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0282",
+      "name": "新月匕首SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0026"
+      ],
+      "components": [
+        "item-0012",
+        "item-0014",
+        "item-0031",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0283",
+      "name": "銳刃雙劍",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0027"
+      ],
+      "components": [
+        "item-0002",
+        "item-0024"
+      ]
+    },
+    {
+      "id": "item-0284",
+      "name": "重型雙劍",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0027"
+      ],
+      "components": [
+        "item-0008",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0285",
+      "name": "銳刃雙劍S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0027"
+      ],
+      "components": [
+        "item-0010",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0286",
+      "name": "重型雙劍S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0027"
+      ],
+      "components": [
+        "item-0010",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0287",
+      "name": "豪刃雙劍S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0027"
+      ],
+      "components": [
+        "item-0012",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0288",
+      "name": "銳刃雙劍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0027"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0289",
+      "name": "曲刃雙劍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0027"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0290",
+      "name": "重型雙劍SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0027"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0291",
+      "name": "重型雙劍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0027"
+      ],
+      "components": [
+        "item-0014",
+        "item-0031",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0292",
+      "name": "豪刃雙劍SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0027"
+      ],
+      "components": [
+        "item-0014",
+        "item-0031",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0293",
+      "name": "輕型拳套",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0028"
+      ],
+      "components": [
+        "item-0002",
+        "item-0024"
+      ]
+    },
+    {
+      "id": "item-0294",
+      "name": "圓頂拳套",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0028"
+      ],
+      "components": [
+        "item-0008",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0295",
+      "name": "輕型拳套S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0028"
+      ],
+      "components": [
+        "item-0010",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0297",
+      "name": "圓頂拳套S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0028"
+      ],
+      "components": [
+        "item-0010",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0298",
+      "name": "至尊拳套S",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0028"
+      ],
+      "components": [
+        "item-0012",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0299",
+      "name": "輕型拳套SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0028"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0300",
+      "name": "野獸拳套SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0028"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0301",
+      "name": "圓頂拳套SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0028"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116",
+        "item-0118"
+      ]
+    },
+    {
+      "id": "item-0302",
+      "name": "圓頂拳套SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0028"
+      ],
+      "components": [
+        "item-0012",
+        "item-0014",
+        "item-0031",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0303",
+      "name": "至尊拳套SS",
+      "description": "",
+      "tags": [
+        "tag-0001",
+        "tag-0028"
+      ],
+      "components": [
+        "item-0012",
+        "item-0014",
+        "item-0031",
+        "item-0120",
+        "item-0122"
+      ]
+    },
+    {
+      "id": "item-0304",
+      "name": "支配的圖紙(防具)",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0029",
+        "tag-0030",
+        "tag-0031",
+        "tag-0032"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0305",
+      "name": "高級支配的圖紙(防具)",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0029",
+        "tag-0030",
+        "tag-0031",
+        "tag-0032"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0306",
+      "name": "鱗甲頭盔",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0002",
+        "item-0024"
+      ]
+    },
+    {
+      "id": "item-0307",
+      "name": "鱗甲上衣",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0002",
+        "item-0035"
+      ]
+    },
+    {
+      "id": "item-0308",
+      "name": "鱗甲手套",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0002",
+        "item-0037"
+      ]
+    },
+    {
+      "id": "item-0309",
+      "name": "鱗甲下著",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0002",
+        "item-0035"
+      ]
+    },
+    {
+      "id": "item-0310",
+      "name": "鱗甲靴",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0002",
+        "item-0024"
+      ]
+    },
+    {
+      "id": "item-0311",
+      "name": "鎖甲頭盔",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0008",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0312",
+      "name": "鎖甲上衣",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0008",
+        "item-0038"
+      ]
+    },
+    {
+      "id": "item-0313",
+      "name": "鎖甲手套",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0008",
+        "item-0037"
+      ]
+    },
+    {
+      "id": "item-0314",
+      "name": "鎖甲下著",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0008",
+        "item-0038"
+      ]
+    },
+    {
+      "id": "item-0315",
+      "name": "鎖甲靴",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0008",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0316",
+      "name": "鱗甲頭盔S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0010",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0317",
+      "name": "鱗甲上衣S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0010",
+        "item-0038"
+      ]
+    },
+    {
+      "id": "item-0318",
+      "name": "鱗甲手套S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0010",
+        "item-0037"
+      ]
+    },
+    {
+      "id": "item-0319",
+      "name": "鱗甲下著S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0010",
+        "item-0038"
+      ]
+    },
+    {
+      "id": "item-0320",
+      "name": "鱗甲靴S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0010",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0321",
+      "name": "鎖甲頭盔S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0010",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0322",
+      "name": "鎖甲上衣S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0010",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0323",
+      "name": "鎖甲手套S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0010",
+        "item-0047"
+      ]
+    },
+    {
+      "id": "item-0324",
+      "name": "鎖甲下著S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0010",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0325",
+      "name": "鎖甲靴S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0010",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0326",
+      "name": "板金頭盔S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0327",
+      "name": "板金上衣S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0328",
+      "name": "板金手套S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0047"
+      ]
+    },
+    {
+      "id": "item-0329",
+      "name": "板金下著S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0330",
+      "name": "板金靴S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0331",
+      "name": "鱗甲頭盔SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0332",
+      "name": "鱗甲上衣SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0333",
+      "name": "鱗甲手套SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0047"
+      ]
+    },
+    {
+      "id": "item-0334",
+      "name": "鱗甲下著SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0335",
+      "name": "鱗甲靴SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0336",
+      "name": "鐵板頭盔SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0337",
+      "name": "鐵板上衣SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0049",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0338",
+      "name": "鐵板手套SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0047",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0339",
+      "name": "鐵板下著SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0049",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0340",
+      "name": "鐵板靴SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0341",
+      "name": "鎖甲頭盔SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0342",
+      "name": "鎖甲上衣SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0049",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0343",
+      "name": "鎖甲手套SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0047",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0344",
+      "name": "鎖甲下著SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0049",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0345",
+      "name": "鎖甲靴SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0346",
+      "name": "鎖甲頭盔SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0014",
+        "item-0031",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0347",
+      "name": "鎖甲上衣SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0014",
+        "item-0049",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0348",
+      "name": "鎖甲手套SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0014",
+        "item-0047",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0349",
+      "name": "鎖甲下著SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0014",
+        "item-0049",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0350",
+      "name": "鎖甲靴SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0014",
+        "item-0031",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0351",
+      "name": "板金頭盔SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0014",
+        "item-0031",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0352",
+      "name": "板金上衣SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0014",
+        "item-0049",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0353",
+      "name": "板金手套SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0014",
+        "item-0053",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0354",
+      "name": "板金下著SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0014",
+        "item-0049",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0355",
+      "name": "板金靴SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0030"
+      ],
+      "components": [
+        "item-0014",
+        "item-0031",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0356",
+      "name": "皮革頭盔",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0002",
+        "item-0024"
+      ]
+    },
+    {
+      "id": "item-0357",
+      "name": "皮革上衣",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0024",
+        "item-0035"
+      ]
+    },
+    {
+      "id": "item-0358",
+      "name": "皮革手套",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0024",
+        "item-0037"
+      ]
+    },
+    {
+      "id": "item-0359",
+      "name": "皮革下著",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0024",
+        "item-0035"
+      ]
+    },
+    {
+      "id": "item-0360",
+      "name": "皮革靴",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0002",
+        "item-0024"
+      ]
+    },
+    {
+      "id": "item-0361",
+      "name": "厚皮甲頭盔",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0008",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0362",
+      "name": "厚皮甲上衣",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0027",
+        "item-0038"
+      ]
+    },
+    {
+      "id": "item-0363",
+      "name": "厚皮甲手套",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0027",
+        "item-0037"
+      ]
+    },
+    {
+      "id": "item-0364",
+      "name": "厚皮甲下著",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0027",
+        "item-0038"
+      ]
+    },
+    {
+      "id": "item-0365",
+      "name": "厚皮甲靴",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0008",
+        "item-0027"
+      ]
+    },
+    {
+      "id": "item-0366",
+      "name": "皮革頭盔S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0008",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0367",
+      "name": "皮甲上衣S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0029",
+        "item-0038"
+      ]
+    },
+    {
+      "id": "item-0368",
+      "name": "皮甲手套S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0029",
+        "item-0037"
+      ]
+    },
+    {
+      "id": "item-0369",
+      "name": "皮甲下著S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0029",
+        "item-0038"
+      ]
+    },
+    {
+      "id": "item-0370",
+      "name": "皮甲靴S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0008",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0371",
+      "name": "厚皮甲頭盔S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0010",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0372",
+      "name": "厚皮甲上衣S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0029",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0373",
+      "name": "厚皮甲手套S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0029",
+        "item-0047"
+      ]
+    },
+    {
+      "id": "item-0374",
+      "name": "厚皮甲下著S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0029",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0375",
+      "name": "厚皮甲靴S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0010",
+        "item-0029"
+      ]
+    },
+    {
+      "id": "item-0376",
+      "name": "熱處理皮甲頭盔S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0010",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0377",
+      "name": "熱處理皮甲上衣S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0031",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0378",
+      "name": "熱處理皮甲手套S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0031",
+        "item-0047"
+      ]
+    },
+    {
+      "id": "item-0379",
+      "name": "熱處理皮甲下著S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0031",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0380",
+      "name": "熱處理皮甲靴S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0010",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0381",
+      "name": "皮革頭盔SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0382",
+      "name": "皮革上衣SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0031",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0383",
+      "name": "皮革手套SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0031",
+        "item-0047"
+      ]
+    },
+    {
+      "id": "item-0384",
+      "name": "皮革下著SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0031",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0385",
+      "name": "皮革靴SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031"
+      ]
+    },
+    {
+      "id": "item-0386",
+      "name": "鉚釘皮甲頭盔SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0387",
+      "name": "鉚釘皮甲上衣SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0031",
+        "item-0049",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0388",
+      "name": "鉚釘皮甲手套SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0031",
+        "item-0047",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0389",
+      "name": "鉚釘皮甲下著SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0031",
+        "item-0049",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0390",
+      "name": "鉚釘皮甲靴SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0391",
+      "name": "厚皮甲頭盔SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0392",
+      "name": "厚皮甲上衣SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0031",
+        "item-0049",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0393",
+      "name": "厚皮甲手套SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0031",
+        "item-0047",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0394",
+      "name": "厚皮甲下著SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0031",
+        "item-0049",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0395",
+      "name": "厚皮甲靴SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0012",
+        "item-0031",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0396",
+      "name": "厚皮甲頭盔SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0012",
+        "item-0033",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0397",
+      "name": "厚皮甲上衣SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0033",
+        "item-0049",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0398",
+      "name": "厚皮甲手套SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0033",
+        "item-0047",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0399",
+      "name": "厚皮甲下著SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0033",
+        "item-0049",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0400",
+      "name": "厚皮甲靴SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0012",
+        "item-0033",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0401",
+      "name": "熱處理皮甲頭盔SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0012",
+        "item-0033",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0402",
+      "name": "熱處理皮甲上衣SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0033",
+        "item-0049",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0403",
+      "name": "熱處理皮甲手套SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0033",
+        "item-0053",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0404",
+      "name": "熱處理皮甲下著SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0033",
+        "item-0049",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0405",
+      "name": "熱處理皮甲靴SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0031"
+      ],
+      "components": [
+        "item-0012",
+        "item-0033",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0406",
+      "name": "戰鬥服頭盔",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0024",
+        "item-0035"
+      ]
+    },
+    {
+      "id": "item-0407",
+      "name": "戰鬥服上衣",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0002",
+        "item-0035"
+      ]
+    },
+    {
+      "id": "item-0408",
+      "name": "戰鬥服手套",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0035",
+        "item-0037"
+      ]
+    },
+    {
+      "id": "item-0409",
+      "name": "戰鬥服下著",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0024",
+        "item-0035"
+      ]
+    },
+    {
+      "id": "item-0410",
+      "name": "戰鬥服鞋子",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0002",
+        "item-0035"
+      ]
+    },
+    {
+      "id": "item-0411",
+      "name": "厚布戰鬥服頭盔",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0027",
+        "item-0038"
+      ]
+    },
+    {
+      "id": "item-0412",
+      "name": "厚布戰鬥服上衣",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0008",
+        "item-0038"
+      ]
+    },
+    {
+      "id": "item-0413",
+      "name": "厚布戰鬥服手套",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0037",
+        "item-0038"
+      ]
+    },
+    {
+      "id": "item-0414",
+      "name": "厚布戰鬥服下著",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0027",
+        "item-0038"
+      ]
+    },
+    {
+      "id": "item-0415",
+      "name": "厚布戰鬥服鞋子",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0008",
+        "item-0038"
+      ]
+    },
+    {
+      "id": "item-0416",
+      "name": "戰鬥服頭盔S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0027",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0417",
+      "name": "戰鬥服上衣S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0008",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0418",
+      "name": "戰鬥服手套S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0037",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0419",
+      "name": "戰鬥服下著S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0027",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0420",
+      "name": "戰鬥服鞋子S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0008",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0421",
+      "name": "厚布戰鬥服頭盔S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0029",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0422",
+      "name": "厚布戰鬥服上衣S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0010",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0423",
+      "name": "厚布戰鬥服手套S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0040",
+        "item-0047"
+      ]
+    },
+    {
+      "id": "item-0424",
+      "name": "厚布戰鬥服下著S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0029",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0425",
+      "name": "厚布戰鬥服鞋子S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0010",
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0426",
+      "name": "強化戰鬥服頭盔S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0029",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0427",
+      "name": "強化戰鬥服上衣S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0010",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0428",
+      "name": "強化戰鬥服手套S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0047",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0429",
+      "name": "強化戰鬥服下著S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0029",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0430",
+      "name": "強化戰鬥服鞋子S",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0010",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0431",
+      "name": "戰鬥服頭盔SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0031",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0432",
+      "name": "戰鬥服上衣SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0012",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0433",
+      "name": "戰鬥服手套SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0047",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0434",
+      "name": "戰鬥服下著SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0031",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0435",
+      "name": "戰鬥服鞋子SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0012",
+        "item-0049"
+      ]
+    },
+    {
+      "id": "item-0436",
+      "name": "絎縫戰鬥服頭盔SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0031",
+        "item-0049",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0437",
+      "name": "絎縫戰鬥服上衣SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0012",
+        "item-0049",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0438",
+      "name": "絎縫戰鬥服手套SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0047",
+        "item-0049",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0439",
+      "name": "絎縫戰鬥服下著SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0031",
+        "item-0049",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0440",
+      "name": "絎縫戰鬥服鞋子SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0012",
+        "item-0049",
+        "item-0116"
+      ]
+    },
+    {
+      "id": "item-0441",
+      "name": "厚布戰鬥服頭盔SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0031",
+        "item-0049",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0442",
+      "name": "厚布戰鬥服上衣SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0012",
+        "item-0049",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0443",
+      "name": "厚布戰鬥服手套SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0047",
+        "item-0049",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0444",
+      "name": "厚布戰鬥服下著SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0031",
+        "item-0049",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0445",
+      "name": "厚布戰鬥服鞋子SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0012",
+        "item-0049",
+        "item-0116",
+        "item-0304"
+      ]
+    },
+    {
+      "id": "item-0446",
+      "name": "厚布戰鬥服頭盔SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0031",
+        "item-0051",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0447",
+      "name": "厚布戰鬥服上衣SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0012",
+        "item-0051",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0448",
+      "name": "厚布戰鬥服手套SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0047",
+        "item-0051",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0449",
+      "name": "厚布戰鬥服下著SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0031",
+        "item-0051",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0450",
+      "name": "厚布戰鬥服鞋子SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0012",
+        "item-0051",
+        "item-0120"
+      ]
+    },
+    {
+      "id": "item-0451",
+      "name": "強化戰鬥服頭盔SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0031",
+        "item-0051",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0452",
+      "name": "強化戰鬥服上衣SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0012",
+        "item-0051",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0453",
+      "name": "強化戰鬥服手套SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0051",
+        "item-0053",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0454",
+      "name": "強化戰鬥服下著SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0031",
+        "item-0051",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0455",
+      "name": "強化戰鬥服鞋子SS",
+      "description": "",
+      "tags": [
+        "tag-0029",
+        "tag-0032"
+      ],
+      "components": [
+        "item-0012",
+        "item-0051",
+        "item-0120",
+        "item-0305"
+      ]
+    },
+    {
+      "id": "item-0456",
+      "name": "雕琢橄欖石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0457",
+      "name": "雕琢橄欖石S",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0458",
+      "name": "雕琢橄欖石SS",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0459",
+      "name": "雕琢石榴石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0460",
+      "name": "雕琢石榴石S",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0461",
+      "name": "雕琢石榴石SS",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0462",
+      "name": "雕琢藍尖晶石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0463",
+      "name": "雕琢藍尖晶石S",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0464",
+      "name": "雕琢藍尖晶石SS",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0465",
+      "name": "雕琢鋯石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0466",
+      "name": "雕琢鋯石S",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0467",
+      "name": "雕琢鋯石SS",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0468",
+      "name": "支配的圖紙(飾品)",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0469",
+      "name": "高級支配的圖紙(飾品)",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0033",
+        "tag-0034",
+        "tag-0035"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0470",
+      "name": "橄欖石項鍊",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0034"
+      ],
+      "components": [
+        "item-0002",
+        "item-0456"
+      ]
+    },
+    {
+      "id": "item-0471",
+      "name": "橄欖石項鍊S",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0034"
+      ],
+      "components": [
+        "item-0010",
+        "item-0457"
+      ]
+    },
+    {
+      "id": "item-0472",
+      "name": "橄欖石項鍊SS",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0034"
+      ],
+      "components": [
+        "item-0012",
+        "item-0458"
+      ]
+    },
+    {
+      "id": "item-0473",
+      "name": "淚石榴石項鍊",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0034"
+      ],
+      "components": [
+        "item-0008",
+        "item-0459"
+      ]
+    },
+    {
+      "id": "item-0474",
+      "name": "淚石榴石項鍊S",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0034"
+      ],
+      "components": [
+        "item-0010",
+        "item-0460"
+      ]
+    },
+    {
+      "id": "item-0475",
+      "name": "淚石榴石項鍊SS",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0034"
+      ],
+      "components": [
+        "item-0012",
+        "item-0461"
+      ]
+    },
+    {
+      "id": "item-0476",
+      "name": "藍尖晶石墜飾",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0034"
+      ],
+      "components": [
+        "item-0008",
+        "item-0462"
+      ]
+    },
+    {
+      "id": "item-0477",
+      "name": "藍尖晶石墜飾S",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0034"
+      ],
+      "components": [
+        "item-0010",
+        "item-0463"
+      ]
+    },
+    {
+      "id": "item-0478",
+      "name": "藍尖晶石墜飾SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0034"
+      ],
+      "components": [
+        "item-0012",
+        "item-0116",
+        "item-0464",
+        "item-0468"
+      ]
+    },
+    {
+      "id": "item-0479",
+      "name": "藍尖晶石墜飾SS",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0034"
+      ],
+      "components": [
+        "item-0014",
+        "item-0120",
+        "item-0464"
+      ]
+    },
+    {
+      "id": "item-0480",
+      "name": "閃耀鋯石項鍊",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0034"
+      ],
+      "components": [
+        "item-0010",
+        "item-0465"
+      ]
+    },
+    {
+      "id": "item-0481",
+      "name": "閃耀鋯石項鍊S",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0034"
+      ],
+      "components": [
+        "item-0012",
+        "item-0466"
+      ]
+    },
+    {
+      "id": "item-0482",
+      "name": "閃耀鋯石項鍊SS",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0034"
+      ],
+      "components": [
+        "item-0014",
+        "item-0120",
+        "item-0467",
+        "item-0469"
+      ]
+    },
+    {
+      "id": "item-0483",
+      "name": "橄欖石戒指",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0035"
+      ],
+      "components": [
+        "item-0002",
+        "item-0456"
+      ]
+    },
+    {
+      "id": "item-0484",
+      "name": "橄欖石戒指S",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0035"
+      ],
+      "components": [
+        "item-0010",
+        "item-0457"
+      ]
+    },
+    {
+      "id": "item-0485",
+      "name": "橄欖石戒指SS",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0035"
+      ],
+      "components": [
+        "item-0012",
+        "item-0458"
+      ]
+    },
+    {
+      "id": "item-0486",
+      "name": "淚石榴石戒指",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0035"
+      ],
+      "components": [
+        "item-0008",
+        "item-0459"
+      ]
+    },
+    {
+      "id": "item-0487",
+      "name": "淚石榴石戒指S",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0035"
+      ],
+      "components": [
+        "item-0010",
+        "item-0460"
+      ]
+    },
+    {
+      "id": "item-0488",
+      "name": "淚石榴石戒指SS",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0035"
+      ],
+      "components": [
+        "item-0012",
+        "item-0116",
+        "item-0461"
+      ]
+    },
+    {
+      "id": "item-0489",
+      "name": "藍尖晶石戒指",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0035"
+      ],
+      "components": [
+        "item-0008",
+        "item-0462"
+      ]
+    },
+    {
+      "id": "item-0490",
+      "name": "藍尖晶石戒指S",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0035"
+      ],
+      "components": [
+        "item-0010",
+        "item-0463"
+      ]
+    },
+    {
+      "id": "item-0491",
+      "name": "藍尖晶石戒指SS(橘)",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0035"
+      ],
+      "components": [
+        "item-0012",
+        "item-0116",
+        "item-0464",
+        "item-0468"
+      ]
+    },
+    {
+      "id": "item-0492",
+      "name": "藍尖晶石戒指SS",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0035"
+      ],
+      "components": [
+        "item-0014",
+        "item-0120",
+        "item-0464"
+      ]
+    },
+    {
+      "id": "item-0493",
+      "name": "閃耀鋯石戒指",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0035"
+      ],
+      "components": [
+        "item-0010",
+        "item-0465"
+      ]
+    },
+    {
+      "id": "item-0494",
+      "name": "閃耀鋯石戒指S",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0035"
+      ],
+      "components": [
+        "item-0012",
+        "item-0466"
+      ]
+    },
+    {
+      "id": "item-0495",
+      "name": "閃耀鋯石戒指SS",
+      "description": "",
+      "tags": [
+        "tag-0033",
+        "tag-0035"
+      ],
+      "components": [
+        "item-0014",
+        "item-0120",
+        "item-0467",
+        "item-0469"
+      ]
+    },
+    {
+      "id": "item-0496",
+      "name": "釘子",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0036",
+        "tag-0037",
+        "tag-0044",
+        "tag-0046"
+      ],
+      "components": [
+        "item-0002"
+      ]
+    },
+    {
+      "id": "item-0497",
+      "name": "道具部件",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0036"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0498",
+      "name": "改良道具部件",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0036"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0499",
+      "name": "精巧道具部件",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0036"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0500",
+      "name": "藥草鋤",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0008",
+        "item-0496",
+        "item-0497"
+      ]
+    },
+    {
+      "id": "item-0501",
+      "name": "改良型藥草鋤",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0010",
+        "item-0496",
+        "item-0498"
+      ]
+    },
+    {
+      "id": "item-0502",
+      "name": "精巧藥草鋤",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0012",
+        "item-0014",
+        "item-0496",
+        "item-0499"
+      ]
+    },
+    {
+      "id": "item-0503",
+      "name": "鐮刀",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0008",
+        "item-0496",
+        "item-0497"
+      ]
+    },
+    {
+      "id": "item-0504",
+      "name": "改良型鐮刀",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0010",
+        "item-0496",
+        "item-0498"
+      ]
+    },
+    {
+      "id": "item-0505",
+      "name": "精巧鐮刀",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0012",
+        "item-0014",
+        "item-0496",
+        "item-0499"
+      ]
+    },
+    {
+      "id": "item-0506",
+      "name": "小鋤頭",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0008",
+        "item-0496",
+        "item-0497"
+      ]
+    },
+    {
+      "id": "item-0507",
+      "name": "改良型小鋤頭",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0010",
+        "item-0496",
+        "item-0498"
+      ]
+    },
+    {
+      "id": "item-0508",
+      "name": "精巧小鋤頭",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0012",
+        "item-0014",
+        "item-0496",
+        "item-0499"
+      ]
+    },
+    {
+      "id": "item-0509",
+      "name": "羊毛剪",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0008",
+        "item-0496",
+        "item-0497"
+      ]
+    },
+    {
+      "id": "item-0510",
+      "name": "改良型羊毛剪",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0010",
+        "item-0496",
+        "item-0498"
+      ]
+    },
+    {
+      "id": "item-0511",
+      "name": "精巧羊毛剪",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0012",
+        "item-0014",
+        "item-0496",
+        "item-0499"
+      ]
+    },
+    {
+      "id": "item-0512",
+      "name": "伐木斧",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0008",
+        "item-0496",
+        "item-0497"
+      ]
+    },
+    {
+      "id": "item-0513",
+      "name": "改良型伐木斧",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0010",
+        "item-0496",
+        "item-0498"
+      ]
+    },
+    {
+      "id": "item-0514",
+      "name": "精巧伐木斧",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0012",
+        "item-0014",
+        "item-0496",
+        "item-0499"
+      ]
+    },
+    {
+      "id": "item-0515",
+      "name": "鶴嘴鋤",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0008",
+        "item-0496",
+        "item-0497"
+      ]
+    },
+    {
+      "id": "item-0516",
+      "name": "改良型鶴嘴鋤",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0010",
+        "item-0496",
+        "item-0498"
+      ]
+    },
+    {
+      "id": "item-0517",
+      "name": "精巧鶴嘴鋤",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0012",
+        "item-0014",
+        "item-0496",
+        "item-0499"
+      ]
+    },
+    {
+      "id": "item-0518",
+      "name": "昆蟲捕捉網",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0016",
+        "item-0496",
+        "item-0497"
+      ]
+    },
+    {
+      "id": "item-0519",
+      "name": "改良型昆蟲捕捉網",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0018",
+        "item-0496",
+        "item-0498"
+      ]
+    },
+    {
+      "id": "item-0520",
+      "name": "精巧昆蟲捕捉網",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0020",
+        "item-0022",
+        "item-0496",
+        "item-0499"
+      ]
+    },
+    {
+      "id": "item-0521",
+      "name": "釣竿",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0016",
+        "item-0496",
+        "item-0497"
+      ]
+    },
+    {
+      "id": "item-0522",
+      "name": "改良型釣竿",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0018",
+        "item-0496",
+        "item-0498"
+      ]
+    },
+    {
+      "id": "item-0523",
+      "name": "精巧釣竿",
+      "description": "",
+      "tags": [
+        "tag-0036"
+      ],
+      "components": [
+        "item-0020",
+        "item-0022",
+        "item-0496",
+        "item-0499"
+      ]
+    },
+    {
+      "id": "item-0524",
+      "name": "血紅藥草",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0525",
+      "name": "分解的裝備零件",
+      "description": "分解裝備後產出的雜物",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0038",
+        "tag-0039",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0526",
+      "name": "生命的魔力石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0527",
+      "name": "恢復藥水",
+      "description": "",
+      "tags": [
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0054",
+        "item-0524"
+      ]
+    },
+    {
+      "id": "item-0528",
+      "name": "繃帶",
+      "description": "",
+      "tags": [
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0035"
+      ]
+    },
+    {
+      "id": "item-0529",
+      "name": "自動恢復藥水",
+      "description": "",
+      "tags": [
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0525",
+        "item-0527"
+      ]
+    },
+    {
+      "id": "item-0530",
+      "name": "高級恢復藥水",
+      "description": "",
+      "tags": [
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0056",
+        "item-0058",
+        "item-0524"
+      ]
+    },
+    {
+      "id": "item-0531",
+      "name": "高級自動恢復藥水",
+      "description": "",
+      "tags": [
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0525",
+        "item-0530"
+      ]
+    },
+    {
+      "id": "item-0532",
+      "name": "耐熱繃帶",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0042",
+        "item-0066",
+        "item-0528"
+      ]
+    },
+    {
+      "id": "item-0533",
+      "name": "防寒繃帶",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0042",
+        "item-0073",
+        "item-0528"
+      ]
+    },
+    {
+      "id": "item-0534",
+      "name": "絕緣繃帶",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0042",
+        "item-0090",
+        "item-0528"
+      ]
+    },
+    {
+      "id": "item-0535",
+      "name": "祝福繃帶",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0042",
+        "item-0064",
+        "item-0528"
+      ]
+    },
+    {
+      "id": "item-0536",
+      "name": "封印繃帶",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0042",
+        "item-0078",
+        "item-0528"
+      ]
+    },
+    {
+      "id": "item-0537",
+      "name": "最高級恢復藥水",
+      "description": "",
+      "tags": [
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0067",
+        "item-0069",
+        "item-0524"
+      ]
+    },
+    {
+      "id": "item-0538",
+      "name": "高級繃帶",
+      "description": "",
+      "tags": [
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0040"
+      ]
+    },
+    {
+      "id": "item-0539",
+      "name": "最高級自動恢復藥水",
+      "description": "",
+      "tags": [
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0525",
+        "item-0537"
+      ]
+    },
+    {
+      "id": "item-0540",
+      "name": "高級耐熱繃帶",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0066",
+        "item-0068",
+        "item-0538"
+      ]
+    },
+    {
+      "id": "item-0541",
+      "name": "高級防寒繃帶",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0068",
+        "item-0073",
+        "item-0538"
+      ]
+    },
+    {
+      "id": "item-0542",
+      "name": "高級絕緣繃帶",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0068",
+        "item-0090",
+        "item-0538"
+      ]
+    },
+    {
+      "id": "item-0543",
+      "name": "高級祝福繃帶",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0064",
+        "item-0068",
+        "item-0538"
+      ]
+    },
+    {
+      "id": "item-0544",
+      "name": "高級封印繃帶",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0068",
+        "item-0078",
+        "item-0538"
+      ]
+    },
+    {
+      "id": "item-0545",
+      "name": "卓越恢復藥水",
+      "description": "",
+      "tags": [
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0071",
+        "item-0524",
+        "item-0526"
+      ]
+    },
+    {
+      "id": "item-0546",
+      "name": "卓越自動恢復藥水",
+      "description": "",
+      "tags": [
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0525",
+        "item-0545"
+      ]
+    },
+    {
+      "id": "item-0547",
+      "name": "卓越繃帶",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0039"
+      ],
+      "components": [
+        "item-0049",
+        "item-0064",
+        "item-0066",
+        "item-0073",
+        "item-0078",
+        "item-0085",
+        "item-0090"
+      ]
+    },
+    {
+      "id": "item-0548",
+      "name": "四葉草",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0549",
+      "name": "錢幣瓢蟲",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0550",
+      "name": "鍊金術碎屑",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0551",
+      "name": "毅力草",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0552",
+      "name": "白花蝶",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0553",
+      "name": "獨角仙",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0554",
+      "name": "箭花",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0555",
+      "name": "滴答螢火蟲",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0556",
+      "name": "廢墟的魔力石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0557",
+      "name": "強化秘藥乳化劑",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0561",
+      "name": "礦山的魔力石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0562",
+      "name": "暴擊秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0060",
+        "item-0548",
+        "item-0549",
+        "item-0550"
+      ]
+    },
+    {
+      "id": "item-0563",
+      "name": "絕招秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0060",
+        "item-0550",
+        "item-0551",
+        "item-0552"
+      ]
+    },
+    {
+      "id": "item-0564",
+      "name": "傷害減少秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0060",
+        "item-0524",
+        "item-0550",
+        "item-0553"
+      ]
+    },
+    {
+      "id": "item-0565",
+      "name": "移動速度秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0060",
+        "item-0550",
+        "item-0554",
+        "item-0555"
+      ]
+    },
+    {
+      "id": "item-0566",
+      "name": "高級暴擊秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0071",
+        "item-0550",
+        "item-0556",
+        "item-0562"
+      ]
+    },
+    {
+      "id": "item-0567",
+      "name": "高級絕招秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0071",
+        "item-0550",
+        "item-0556",
+        "item-0563"
+      ]
+    },
+    {
+      "id": "item-0568",
+      "name": "高級傷害減少秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0071",
+        "item-0550",
+        "item-0556",
+        "item-0564"
+      ]
+    },
+    {
+      "id": "item-0569",
+      "name": "高級移動速度秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0071",
+        "item-0550",
+        "item-0556",
+        "item-0565"
+      ]
+    },
+    {
+      "id": "item-0570",
+      "name": "強擊強化秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0071",
+        "item-0524",
+        "item-0550",
+        "item-0553"
+      ]
+    },
+    {
+      "id": "item-0571",
+      "name": "連擊強化秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0071",
+        "item-0550",
+        "item-0554",
+        "item-0555"
+      ]
+    },
+    {
+      "id": "item-0572",
+      "name": "廣域強化秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0062",
+        "item-0071",
+        "item-0550",
+        "item-0552"
+      ]
+    },
+    {
+      "id": "item-0573",
+      "name": "混合強化秘藥(山崩)",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0077",
+        "item-0526",
+        "item-0557",
+        "item-0570",
+        "item-0571"
+      ]
+    },
+    {
+      "id": "item-0574",
+      "name": "混合強化秘藥(風暴)",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0080",
+        "item-0526",
+        "item-0557",
+        "item-0570",
+        "item-0572"
+      ]
+    },
+    {
+      "id": "item-0575",
+      "name": "混合強化秘藥(怒濤)",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0082",
+        "item-0526",
+        "item-0557",
+        "item-0571",
+        "item-0572"
+      ]
+    },
+    {
+      "id": "item-0576",
+      "name": "高級強擊強化秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0088",
+        "item-0550",
+        "item-0561",
+        "item-0570"
+      ]
+    },
+    {
+      "id": "item-0577",
+      "name": "高級連擊強化秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0088",
+        "item-0550",
+        "item-0561",
+        "item-0571"
+      ]
+    },
+    {
+      "id": "item-0578",
+      "name": "高級廣域強化秘藥",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0088",
+        "item-0550",
+        "item-0561",
+        "item-0572"
+      ]
+    },
+    {
+      "id": "item-0579",
+      "name": "高級混合強化秘藥(山崩)",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0077",
+        "item-0526",
+        "item-0557",
+        "item-0576",
+        "item-0577"
+      ]
+    },
+    {
+      "id": "item-0580",
+      "name": "高級混合強化秘藥(風暴)",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0080",
+        "item-0526",
+        "item-0557",
+        "item-0576",
+        "item-0578"
+      ]
+    },
+    {
+      "id": "item-0581",
+      "name": "高級混合強化秘藥(怒濤)",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0040"
+      ],
+      "components": [
+        "item-0082",
+        "item-0526",
+        "item-0557",
+        "item-0576",
+        "item-0578"
+      ]
+    },
+    {
+      "id": "item-0582",
+      "name": "染色劑基底",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0038",
+        "tag-0041"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0583",
+      "name": "染色劑",
+      "description": "",
+      "tags": [
+        "tag-0037",
+        "tag-0038",
+        "tag-0041"
+      ],
+      "components": [
+        "item-0046",
+        "item-0582"
+      ]
+    },
+    {
+      "id": "item-0584",
+      "name": "肉",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0042",
+        "tag-0043",
+        "tag-0048",
+        "tag-0049",
+        "tag-0050"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0585",
+      "name": "擠著吃的點心",
+      "description": "",
+      "tags": [
+        "tag-0037",
+        "tag-0042",
+        "tag-0043"
+      ],
+      "components": [
+        "item-0046",
+        "item-0109",
+        "item-0584"
+      ]
+    },
+    {
+      "id": "item-0586",
+      "name": "峽谷的魔力石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0587",
+      "name": "凝聚的風",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0588",
+      "name": "毒囊",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0589",
+      "name": "曠野的魔力石",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0590",
+      "name": "魔法榴彈部件",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0062",
+        "item-0525",
+        "item-0550",
+        "item-0586"
+      ]
+    },
+    {
+      "id": "item-0591",
+      "name": "火焰魔法榴彈",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0066",
+        "item-0590"
+      ]
+    },
+    {
+      "id": "item-0592",
+      "name": "閃電魔法榴彈",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0090",
+        "item-0590"
+      ]
+    },
+    {
+      "id": "item-0593",
+      "name": "風魔法榴彈",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0587",
+        "item-0590"
+      ]
+    },
+    {
+      "id": "item-0594",
+      "name": "酸蝕魔法榴彈",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0588",
+        "item-0590"
+      ]
+    },
+    {
+      "id": "item-0595",
+      "name": "高級魔法榴彈部件",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0076",
+        "item-0550",
+        "item-0586",
+        "item-0590"
+      ]
+    },
+    {
+      "id": "item-0596",
+      "name": "高級魔法榴彈部件2",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0076",
+        "item-0525",
+        "item-0550",
+        "item-0589"
+      ]
+    },
+    {
+      "id": "item-0597",
+      "name": "高級火焰魔法榴彈",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0066",
+        "item-0595",
+        "item-0596"
+      ]
+    },
+    {
+      "id": "item-0598",
+      "name": "高級閃電魔法榴彈",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0090",
+        "item-0595",
+        "item-0596"
+      ]
+    },
+    {
+      "id": "item-0599",
+      "name": "高級風魔法榴彈",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0587",
+        "item-0595",
+        "item-0596"
+      ]
+    },
+    {
+      "id": "item-0600",
+      "name": "高級酸蝕魔法榴彈",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0045"
+      ],
+      "components": [
+        "item-0588",
+        "item-0595",
+        "item-0596"
+      ]
+    },
+    {
+      "id": "item-0601",
+      "name": "石塊",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0047"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0602",
+      "name": "營火套組",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0047"
+      ],
+      "components": [
+        "item-0005",
+        "item-0025"
+      ]
+    },
+    {
+      "id": "item-0603",
+      "name": "熟練營火套組",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0047"
+      ],
+      "components": [
+        "item-0017",
+        "item-0025",
+        "item-0601"
+      ]
+    },
+    {
+      "id": "item-0604",
+      "name": "專業營火套組",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0047"
+      ],
+      "components": [
+        "item-0019",
+        "item-0025",
+        "item-0601"
+      ]
+    },
+    {
+      "id": "item-0605",
+      "name": "旅行者點心",
+      "description": "",
+      "tags": [
+        "tag-0042",
+        "tag-0048",
+        "tag-0049"
+      ],
+      "components": [
+        "item-0091",
+        "item-0584"
+      ]
+    },
+    {
+      "id": "item-0606",
+      "name": "煎蛋",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0049"
+      ],
+      "components": [
+        "item-0091",
+        "item-0097"
+      ]
+    },
+    {
+      "id": "item-0607",
+      "name": "水煮蛋",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0049"
+      ],
+      "components": [
+        "item-0046",
+        "item-0091"
+      ]
+    },
+    {
+      "id": "item-0608",
+      "name": "高麗菜",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050",
+        "tag-0051",
+        "tag-0052"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0609",
+      "name": "馬鈴薯",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050",
+        "tag-0051",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0610",
+      "name": "貝類",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0611",
+      "name": "檸檬",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050",
+        "tag-0052",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0613",
+      "name": "番茄",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0614",
+      "name": "清淡的肉",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0615",
+      "name": "燒肉",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050"
+      ],
+      "components": [
+        "item-0097",
+        "item-0109",
+        "item-0584"
+      ]
+    },
+    {
+      "id": "item-0616",
+      "name": "美乃滋炒肉",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050"
+      ],
+      "components": [
+        "item-0093",
+        "item-0584",
+        "item-0608"
+      ]
+    },
+    {
+      "id": "item-0617",
+      "name": "牛奶燉豬肉",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050"
+      ],
+      "components": [
+        "item-0096",
+        "item-0107",
+        "item-0109",
+        "item-0584"
+      ]
+    },
+    {
+      "id": "item-0618",
+      "name": "起司鍋",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050"
+      ],
+      "components": [
+        "item-0097",
+        "item-0098",
+        "item-0584",
+        "item-0609"
+      ]
+    },
+    {
+      "id": "item-0619",
+      "name": "蒸蛤蜊",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050"
+      ],
+      "components": [
+        "item-0046",
+        "item-0109",
+        "item-0610",
+        "item-0611"
+      ]
+    },
+    {
+      "id": "item-0620",
+      "name": "奶油醬牛排",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050"
+      ],
+      "components": [
+        "item-0101",
+        "item-0107",
+        "item-0108",
+        "item-0584"
+      ]
+    },
+    {
+      "id": "item-0621",
+      "name": "沙威瑪",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050"
+      ],
+      "components": [
+        "item-0095",
+        "item-0102",
+        "item-0608",
+        "item-0611",
+        "item-0614"
+      ]
+    },
+    {
+      "id": "item-0622",
+      "name": "帕瑪森肉排",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0050"
+      ],
+      "components": [
+        "item-0097",
+        "item-0098",
+        "item-0108",
+        "item-0613",
+        "item-0614"
+      ]
+    },
+    {
+      "id": "item-0623",
+      "name": "洋蔥",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0624",
+      "name": "防風草",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051",
+        "tag-0052",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0625",
+      "name": "白蘿蔔",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0626",
+      "name": "烤整顆馬鈴薯",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051"
+      ],
+      "components": [
+        "item-0100",
+        "item-0109",
+        "item-0609"
+      ]
+    },
+    {
+      "id": "item-0627",
+      "name": "馬鈴薯沙拉",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051"
+      ],
+      "components": [
+        "item-0093",
+        "item-0608",
+        "item-0609"
+      ]
+    },
+    {
+      "id": "item-0628",
+      "name": "炒蔬菜",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051"
+      ],
+      "components": [
+        "item-0109",
+        "item-0608",
+        "item-0609",
+        "item-0623"
+      ]
+    },
+    {
+      "id": "item-0629",
+      "name": "瑞可塔起司沙拉",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051"
+      ],
+      "components": [
+        "item-0093",
+        "item-0098",
+        "item-0608"
+      ]
+    },
+    {
+      "id": "item-0630",
+      "name": "馬鈴薯湯",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051"
+      ],
+      "components": [
+        "item-0096",
+        "item-0108",
+        "item-0109",
+        "item-0609"
+      ]
+    },
+    {
+      "id": "item-0631",
+      "name": "蒜香橄欖油義大利麵",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051"
+      ],
+      "components": [
+        "item-0099",
+        "item-0107",
+        "item-0108",
+        "item-0623"
+      ]
+    },
+    {
+      "id": "item-0632",
+      "name": "豆腐排",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051"
+      ],
+      "components": [
+        "item-0092",
+        "item-0104",
+        "item-0107",
+        "item-0108",
+        "item-0624"
+      ]
+    },
+    {
+      "id": "item-0633",
+      "name": "豆腐麵",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0051"
+      ],
+      "components": [
+        "item-0046",
+        "item-0097",
+        "item-0104",
+        "item-0623",
+        "item-0625"
+      ]
+    },
+    {
+      "id": "item-0634",
+      "name": "蘋果",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0052"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0635",
+      "name": "玉米",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0052"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0636",
+      "name": "草莓",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0052"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0637",
+      "name": "冰",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0052"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0638",
+      "name": "蘋果汁",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0052"
+      ],
+      "components": [
+        "item-0046",
+        "item-0100",
+        "item-0109",
+        "item-0634"
+      ]
+    },
+    {
+      "id": "item-0639",
+      "name": "蘋果沙拉",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0052"
+      ],
+      "components": [
+        "item-0093",
+        "item-0608",
+        "item-0634"
+      ]
+    },
+    {
+      "id": "item-0640",
+      "name": "起司玉米",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0052"
+      ],
+      "components": [
+        "item-0098",
+        "item-0100",
+        "item-0109",
+        "item-0635"
+      ]
+    },
+    {
+      "id": "item-0641",
+      "name": "蘋果舒芙蕾",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0052"
+      ],
+      "components": [
+        "item-0091",
+        "item-0095",
+        "item-0100",
+        "item-0634"
+      ]
+    },
+    {
+      "id": "item-0642",
+      "name": "冰草莓飲",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0052"
+      ],
+      "components": [
+        "item-0100",
+        "item-0109",
+        "item-0636",
+        "item-0637"
+      ]
+    },
+    {
+      "id": "item-0643",
+      "name": "蘋果鮮奶油蛋糕",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0052"
+      ],
+      "components": [
+        "item-0095",
+        "item-0100",
+        "item-0101",
+        "item-0634"
+      ]
+    },
+    {
+      "id": "item-0644",
+      "name": "豆乳刨冰",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0052"
+      ],
+      "components": [
+        "item-0100",
+        "item-0105",
+        "item-0109",
+        "item-0611",
+        "item-0637"
+      ]
+    },
+    {
+      "id": "item-0645",
+      "name": "豆乳防風草蛋糕",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0052"
+      ],
+      "components": [
+        "item-0095",
+        "item-0100",
+        "item-0101",
+        "item-0105",
+        "item-0624"
+      ]
+    },
+    {
+      "id": "item-0646",
+      "name": "布雷夫尼鯉魚",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0647",
+      "name": "銀鯽魚",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0648",
+      "name": "彩虹鱒魚",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0649",
+      "name": "香魚",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0650",
+      "name": "鯖魚",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0651",
+      "name": "鮭魚",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0652",
+      "name": "蘆筍",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0653",
+      "name": "鯰魚",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0654",
+      "name": "豌豆",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0655",
+      "name": "鱸魚",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0656",
+      "name": "辣椒粉",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0657",
+      "name": "盛宴材料:不滅之火",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0658",
+      "name": "厚實的馬鈴薯",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0659",
+      "name": "白肉魚奶油煎魚",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": [
+        "item-0095",
+        "item-0097",
+        "item-0609",
+        "item-0611",
+        "item-0646",
+        "item-0647"
+      ]
+    },
+    {
+      "id": "item-0660",
+      "name": "馬賽魚湯",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": [
+        "item-0107",
+        "item-0610",
+        "item-0613",
+        "item-0623",
+        "item-0648",
+        "item-0649"
+      ]
+    },
+    {
+      "id": "item-0661",
+      "name": "鯖魚與鮭魚排",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": [
+        "item-0093",
+        "item-0097",
+        "item-0108",
+        "item-0650",
+        "item-0651",
+        "item-0652"
+      ]
+    },
+    {
+      "id": "item-0662",
+      "name": "鯰魚炸魚薯條",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": [
+        "item-0095",
+        "item-0097",
+        "item-0609",
+        "item-0611",
+        "item-0653",
+        "item-0654"
+      ]
+    },
+    {
+      "id": "item-0663",
+      "name": "鱸魚辣魚湯",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": [
+        "item-0046",
+        "item-0108",
+        "item-0623",
+        "item-0625",
+        "item-0655",
+        "item-0656"
+      ]
+    },
+    {
+      "id": "item-0664",
+      "name": "大盛宴:不滅之火的紅酒燉牛肉",
+      "description": "",
+      "tags": [
+        "tag-0004",
+        "tag-0042",
+        "tag-0048",
+        "tag-0053"
+      ],
+      "components": [
+        "item-0097",
+        "item-0110",
+        "item-0613",
+        "item-0623",
+        "item-0624",
+        "item-0657",
+        "item-0658"
+      ]
+    }
+  ],
+  "exportedAt": "2026-09-25T15:12:10.356Z"
+}
