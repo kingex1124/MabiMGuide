@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="管理道具、分類 Tag 與組成配方的離線靜態工具。">
+  <title>道具工坊 · MabiM Guide</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">▧</span><span>道具工坊<small>MABIM GUIDE / TOOLKIT</small></span></a><span class="local-badge">● 本機資料工作區</span></header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">YOUR CRAFTING COMPANION</p><h1>每一件道具，<br>都有自己的組成。</h1><p class="subtitle">整理素材、建立分類，讓你的道具資料井然有序。</p></div><div class="transfer"><button id="import-button" class="button">↥ 匯入 JSON</button><button id="export-button" class="button dark">↧ 匯出 JSON</button><input id="import-file" type="file" accept=".json,application/json" hidden><p>資料保存在此瀏覽器，建議定期匯出備份。</p></div></section>
+    <section class="stats" aria-label="資料統計"><div><span>道具總數</span><strong id="item-count">0</strong><small>ITEMS</small></div><div><span>分類標籤</span><strong id="tag-count">0</strong><small>TAGS</small></div><div><span>組成配方</span><strong id="recipe-count">0</strong><small>RECIPES</small></div></section>
+    <p id="storage-warning" class="warning" role="alert" hidden></p>
+    <section class="workspace"><div class="workspace-top"><nav aria-label="資料類型"><button class="tab active" id="items-tab" aria-pressed="true">道具資料庫</button><button class="tab" id="tags-tab" aria-pressed="false">Tag 管理</button></nav><button id="add-button" class="button primary">＋ 新增道具</button></div><div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><input type="search" id="search" aria-label="搜尋資料" placeholder="搜尋道具名稱、ID 或說明…"></label><label class="filter"><span class="sr-only">篩選 Tag</span><select id="tag-filter"><option value="">所有 Tag</option></select></label><span id="result-count" class="muted"></span></div><div id="records" class="records"></div><div class="workspace-bottom"><button type="button" id="add-bottom-button" class="button primary">＋ 新增道具</button></div></section>
+    <footer><span>道具工坊 <span class="muted">/ 把靈感整理成配方</span></span><span id="save-status" role="status">資料僅保存在本機</span></footer>
+  </main>
+  <dialog id="editor"><form id="record-form"><div class="dialog-heading"><div><p class="eyebrow">WORKSHOP / EDITOR</p><h2 id="editor-title">新增道具</h2></div><button type="button" class="icon-button" id="close-editor" aria-label="關閉編輯視窗">×</button></div><label>ID <span class="muted">自動產生</span><input name="id" id="record-id" readonly maxlength="100"><small>新增時自動產生唯一 ID；建立後固定，確保引用一致。</small></label><label>名稱 <span class="required">*</span><input name="name" id="record-name" required maxlength="200" placeholder="輸入名稱"></label><label>說明<textarea name="description" id="record-description" rows="3" maxlength="10000" placeholder="記錄用途、取得方式或其他備註…"></textarea></label><div id="item-fields"><div class="field-label">Tag <span class="muted">選填，可複選</span></div><details class="picker" id="tag-picker"><summary>選擇分類 Tag <span id="selected-tag-count">0 個已選</span></summary><div class="picker-body"><input id="tag-search" type="search" aria-label="搜尋 Tag 名稱" placeholder="搜尋 Tag 名稱或 ID…"><div id="tag-options" class="options"></div></div></details><div class="field-label">組成內容 <span class="muted">選填，可複選</span></div><div class="picker"><div class="picker-body"><input id="component-search" type="search" aria-label="搜尋組成道具名稱" placeholder="搜尋組成道具名稱或 ID…"><div id="component-options" class="options"></div></div></div><small>從現有道具中選擇素材；無組成方式可留空。</small></div><p id="form-error" class="warning" role="alert" hidden></p><div class="dialog-actions"><button type="button" id="cancel-editor" class="button">取消</button><button type="submit" class="button primary">儲存資料</button></div></form></dialog>
+  <dialog id="confirm-dialog"><div class="dialog-heading"><h2 id="confirm-title"></h2></div><p id="confirm-message"></p><div class="dialog-actions"><button id="confirm-cancel" class="button">取消</button><button id="confirm-ok" class="button primary">確認</button></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

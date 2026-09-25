@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "tags": [
+    { "id": "material", "name": "素材", "description": "用於製作道具的基礎材料" },
+    { "id": "equipment", "name": "裝備", "description": "可裝備的製作品" }
+  ],
+  "items": [
+    { "id": "iron-ore", "name": "鐵礦石", "description": "示範資料：基礎金屬素材。", "tags": ["material"], "components": [] },
+    { "id": "wood", "name": "木材", "description": "示範資料：製作握柄使用的木料。", "tags": ["material"], "components": [] },
+    { "id": "iron-sword", "name": "鐵劍", "description": "示範配方，非遊戲實際資料。", "tags": ["equipment"], "components": ["iron-ore", "wood"] },
+    { "id": "keepsake", "name": "旅行紀念品", "description": "示範沒有 Tag 與組成內容的道具。", "tags": [], "components": [] }
+  ]
+}
