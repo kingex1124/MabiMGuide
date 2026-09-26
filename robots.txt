@@ -1,0 +1,8 @@
+# Public guide pages and assets may be crawled.
+User-agent: *
+Allow: /
+Disallow: /MabiMGuide/Tool/
+Disallow: /MabiMGuide/tests/
+Disallow: /MabiMGuide/scripts/
+
+Sitemap: https://kingex1124.github.io/MabiMGuide/sitemap.xml

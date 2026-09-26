@@ -1,0 +1,12 @@
+# 瑪奇 M · 冒險手札
+
+> 瑪奇 M 非官方繁體中文道具指南。素材和用途由同一份資料集產生，並非官方或保證最新的配方清單。
+
+## 主要內容
+- [道具目錄](https://kingex1124.github.io/MabiMGuide/catalog.html): 每件道具的固定 HTML 連結。
+- [搜尋工具](https://kingex1124.github.io/MabiMGuide/items.html): 名稱、ID、說明與多標籤交集搜尋。
+- [來源與限制](https://kingex1124.github.io/MabiMGuide/about.html): 資料整理方法與引用範圍。
+- [原始資料](https://kingex1124.github.io/MabiMGuide/Data/mabim-workshop.json): 659 件道具、53 個標籤。
+
+## 資料解讀
+components 是素材 ID；用途是反向引用，未提供數量、取得地點或逐筆官方出處。空陣列僅表示尚未記錄。資料匯出時間為 2026-09-25T15:12:10.356Z，不代表遊戲更新時間。

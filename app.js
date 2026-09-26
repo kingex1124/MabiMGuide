@@ -140,6 +140,9 @@ function openDetail(id, nested = false, returning = false) {
   const title = el('h2', '', item.name); title.id = 'detail-title'; title.tabIndex = -1;
   heading.append(el('span', 'item-id', item.id), title, tagBadges(item), el('p', 'detail-description', item.description || '此道具尚無說明。'));
   content.append(heading);
+  const permalink = el('a', 'text-link', '開啟此道具的獨立資料頁 ↗');
+  permalink.href = `item/${encodeURIComponent(item.id)}.html`;
+  content.append(permalink);
   const columns = el('div', 'tree-columns');
   for (const direction of ['components', 'uses']) {
     const section = el('section', 'tree-section');
