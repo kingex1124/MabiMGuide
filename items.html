@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="瑪奇 M 冒險手札：搜尋道具、篩選標籤，探索素材與製作用途的完整關聯。">
+  <title>道具查詢 · 瑪奇 M 冒險手札</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="guide-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳至主要內容</a>
+  <header class="header"><a class="brand" href="index.html"><span class="brand-icon">M</span><span>瑪奇 M <small>冒險手札</small></span></a><nav aria-label="主要選單"><a href="index.html" data-nav="home">首頁</a><a href="items.html" data-nav="items" aria-current="page">道具查詢</a></nav><span class="header-note">你的愛爾琳生活指南</span></header>
+  <main id="main">
+    <section id="items-view"><div class="page-heading"><p class="eyebrow">ITEM ENCYCLOPEDIA</p><h1>道具查詢</h1><p>找到需要的道具，探索素材來源與後續用途。</p></div><div class="catalog"><aside class="filters"><div class="filter-heading"><h2>標籤篩選</h2><button id="clear-tags" class="text-button">清除</button></div><p>複選標籤以 <strong>&amp;（且）</strong> 串接</p><label class="sr-only" for="tag-search">搜尋標籤</label><input id="tag-search" type="search" placeholder="尋找標籤…"><div id="tag-list" class="tag-list"></div></aside><div class="results"><form id="search-form" class="search-bar"><label class="sr-only" for="query">搜尋道具名稱、ID 或說明</label><input id="query" type="search" placeholder="搜尋道具名稱、ID 或說明…"><button class="button primary" type="submit">搜尋</button></form><div id="selected-tags" class="selected-tags"></div><div class="results-toolbar"><p id="result-count" aria-live="polite"></p><label>排序 <select id="sort"><option value="id">道具 ID</option><option value="name">道具名稱</option></select></label></div><div id="item-list" class="item-grid"></div><div id="pagination" class="pagination"></div></div></div></section>
+    <div id="load-status" class="load-status" role="status" hidden></div>
+  </main>
+  <footer><a class="brand" href="index.html">瑪奇 M <small>冒險手札</small></a><p>非官方玩家工具 · 資料僅供參考，以遊戲內資訊為準</p><span>探索 · 收集 · 製作</span></footer>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-bar"><span>道具筆記 / ITEM DETAILS</span><button id="close-detail" aria-label="關閉道具明細">✕</button></div><div id="detail-content"></div></dialog>
+</body>
+</html>

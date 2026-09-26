@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="瑪奇 M 冒險手札：搜尋道具、篩選標籤，探索素材與製作用途的完整關聯。">
+  <title>瑪奇 M · 冒險手札</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="guide-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳至主要內容</a>
+  <header class="header"><a class="brand" href="index.html"><span class="brand-icon">M</span><span>瑪奇 M <small>冒險手札</small></span></a><nav aria-label="主要選單"><a href="index.html" data-nav="home" aria-current="page">首頁</a><a href="items.html" data-nav="items">道具查詢</a></nav><span class="header-note">你的愛爾琳生活指南</span></header>
+  <main id="main">
+    <section id="home-view">
+      <div class="hero"><div class="hero-copy"><p class="eyebrow">MABINOGI MOBILE · FIELD NOTES</p><h1>每一份素材，<br>都是冒險的起點<span>。</span></h1><p class="hero-description">從一顆礦石到手中的裝備，<br>在這裡找到道具、追溯素材，發現下一步的可能。</p><a class="button primary" href="items.html">探索道具圖鑑 <span>↗</span></a><a class="text-link" href="items.html?q=鐵錠">從鐵錠開始探索 →</a></div><div class="field-card" aria-label="製作關聯示意"><div class="card-top"><span>CRAFTING JOURNAL</span><span>01 / 素材筆記</span></div><div class="ore-art" aria-hidden="true"><i></i><i></i><i></i><span>Fe</span></div><p class="specimen">素材的下一段旅程</p><h2>從礦石，到更多可能</h2><div class="sample-chain"><span>鐵礦石</span><b>→</b><span>鐵錠</span><b>→</b><span>製作成品</span></div><p class="note">沿著製作關聯，探索每一層用途</p></div></div>
+      <div class="stats" id="stats" aria-live="polite"><span>正在整理冒險手札…</span></div>
+      <section class="explore"><div class="section-heading"><div><p class="eyebrow">EXPLORE THE GUIDE</p><h2>今天，想找些什麼？</h2></div><a href="items.html" class="text-link">查看所有道具 ↗</a></div><div class="category-grid"><a href="items.html?tag=tag-0003" class="category"><span class="category-icon">◇</span><span><h3>素材與加工</h3><p>認識素材，串起製作的每一步。</p></span><b>↗</b></a><a href="items.html?tag=tag-0001" class="category"><span class="category-icon">⚔</span><span><h3>武器圖鑑</h3><p>查看武器與所需製作素材。</p></span><b>↗</b></a><a href="items.html?tag=tag-0029" class="category"><span class="category-icon">▱</span><span><h3>防具圖鑑</h3><p>為下一場冒險做好準備。</p></span><b>↗</b></a></div></section>
+    </section>
+
+    <div id="load-status" class="load-status" role="status" hidden></div>
+  </main>
+  <footer><a class="brand" href="index.html">瑪奇 M <small>冒險手札</small></a><p>非官方玩家工具 · 資料僅供參考，以遊戲內資訊為準</p><span>探索 · 收集 · 製作</span></footer>
+</body>
+</html>
