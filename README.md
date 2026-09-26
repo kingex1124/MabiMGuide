@@ -68,4 +68,15 @@ node --test tests/*.test.cjs
 
 SEO 測試會檢查所有公開頁的結構化資料、canonical、內部 HTML 連結、資料內容、sitemap 完整性及子目錄網址；線上索引、效能及 GitHub Actions 執行結果仍須在實際發佈後驗證。
 
+### 部署出現 `Get Pages site failed` / `HttpError: Not Found`
+
+若錯誤發生於 `Configure Pages`，表示工作流程無法讀取 GitHub Pages 網站設定，通常是尚未啟用 Pages。這個步驟在網站測試與產生之前執行。
+
+1. 開啟 [儲存庫 Pages 設定](https://github.com/kingex1124/MabiMGuide/settings/pages)。
+2. 在 **Build and deployment → Source** 選擇 **GitHub Actions**。
+3. 回到 Actions 的失敗紀錄，按 **Re-run all jobs**。若有更新工作流程，先推送修改，讓新的執行使用新版設定；重跑舊紀錄仍使用舊版本。
+4. 若設定完成仍出現 404，檢查帳號的管理權限、儲存庫所屬方案是否支援目前可見性下的 Pages，以及組織是否限制 Pages。
+
+工作流程使用 `configure-pages@v6` 與 `setup-node@v6`（Action 執行環境為 Node.js 24），網站產生與測試仍使用指定的 Node.js 22。未設定 `enablement: true`，因為該功能需要額外的高權限 token，普通 `GITHUB_TOKEN` 無法完成首次啟用。Ubuntu 執行環境固定為 `ubuntu-24.04`。
+
 參考：[Google AI 搜尋與網站](https://developers.google.com/search/docs/appearance/ai-features)、[可爬取連結](https://developers.google.com/search/docs/crawling-indexing/links-crawlable)、[canonical 設定](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)、[GitHub Pages 工作流程](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。

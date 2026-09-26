@@ -10,18 +10,20 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
       pages: read
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: '22'
       - name: Configure Pages
         id: pages
-        uses: actions/configure-pages@v5
+        # Enable Settings > Pages > Source: GitHub Actions before the first run.
+        # enablement requires a separate privileged token, not GITHUB_TOKEN.
+        uses: actions/configure-pages@v6
       - name: Test
         run: |
           node --test tests/*.test.cjs
@@ -41,7 +43,7 @@ jobs:
           path: _site
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       pages: write
       id-token: write
