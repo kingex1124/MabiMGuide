@@ -8,7 +8,7 @@ test('static pages expose data, valid structured data, canonical links and a com
   const temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'mabim-seo-'));
   try {
     const base = 'https://example.test/guide/';
-    const result = generate(temporary, { siteUrl: base, siteName: '測試 <網站>' });
+    const result = generate(temporary, { siteUrl: base, siteName: '測試 <網站>', googleAnalyticsId: 'G-YZX1C4M7C9' });
     assert.equal(result.pages, 663);
     const sitemap = fs.readFileSync(path.join(temporary, 'sitemap.xml'), 'utf8');
     assert.equal([...sitemap.matchAll(/<loc>/g)].length, result.pages);
@@ -16,6 +16,9 @@ test('static pages expose data, valid structured data, canonical links and a com
     const files = ['index.html', 'items.html', 'catalog.html', 'about.html', ...fs.readdirSync(path.join(temporary, 'item')).map(file => 'item/' + file)];
     for (const file of files) {
       const html = fs.readFileSync(path.join(temporary, file), 'utf8');
+      const head = html.split('</head>')[0];
+      assert.equal([...head.matchAll(/src="https:\/\/www.googletagmanager.com\/gtag\/js\?id=G-YZX1C4M7C9"/g)].length, 1, file);
+      assert.equal([...head.matchAll(/gtag\('config', 'G-YZX1C4M7C9'\)/g)].length, 1, file);
       assert.equal([...html.matchAll(/<title>/g)].length, 1, file);
       assert.equal([...html.matchAll(/rel="canonical"/g)].length, 1, file);
       assert.ok(html.includes(`href="${base}${file}"`), file);

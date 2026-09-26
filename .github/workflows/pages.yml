@@ -36,6 +36,7 @@ jobs:
         run: |
           mkdir _site
           cp index.html items.html catalog.html about.html styles.css app.js guide-data.js robots.txt sitemap.xml llms.txt _site/
+          cp googlec50a17ce59ee8c3c.html _site/
           cp -R item Data _site/
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v4

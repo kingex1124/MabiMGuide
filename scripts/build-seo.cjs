@@ -13,6 +13,17 @@ function normalizeUrl(value) {
 }
 function generate(target = root, config = JSON.parse(fs.readFileSync(path.join(root, 'seo.config.json'), 'utf8'))) {
   const base = normalizeUrl(config.siteUrl);
+  const analyticsId = config.googleAnalyticsId || '';
+  if (analyticsId && !/^G-[A-Z0-9]+$/.test(analyticsId)) throw new Error('googleAnalyticsId 必須是有效的 GA4 評估 ID');
+  const analytics = analyticsId ? `
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=${analyticsId}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${analyticsId}');
+  </script>` : '';
   const data = JSON.parse(fs.readFileSync(path.join(root, 'Data/mabim-workshop.json'), 'utf8'));
   const index = createIndex(data);
   const absolute = file => base ? new URL(file, base).href : undefined;
@@ -24,7 +35,7 @@ function generate(target = root, config = JSON.parse(fs.readFileSync(path.join(r
     const url = absolute(file);
     const graph = [{ '@type': 'WebSite', '@id': absolute('index.html#website'), name: config.siteName, url: absolute('index.html'), inLanguage: 'zh-Hant' }, { '@type': type, '@id': url, url, name: title, description, inLanguage: 'zh-Hant', isPartOf: base ? { '@id': absolute('index.html#website') } : undefined, mainEntity: entity }];
     if (base && file !== 'index.html') graph.push({ '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: '首頁', item: absolute('index.html') }, ...(file.startsWith('item/') ? [{ '@type': 'ListItem', position: 2, name: '道具目錄', item: absolute('catalog.html') }] : []), { '@type': 'ListItem', position: file.startsWith('item/') ? 3 : 2, name: title.split('｜')[0], item: url }] });
-    return `<!-- SEO:START -->
+    return `<!-- SEO:START -->${analytics}
   <title>${escape(title)}</title>
   <meta name="description" content="${escape(description)}">
   <meta name="robots" content="index, follow, max-image-preview:large">

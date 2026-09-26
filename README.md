@@ -37,6 +37,14 @@ node --check guide-data.js
 
 ## SEO 與 GEO（生成式搜尋最佳化）
 
+### Google Analytics 4
+
+已使用評估 ID `G-YZX1C4M7C9`，將 Google tag 加到首頁、查詢頁、目錄、來源說明及所有道具資料頁的 `<head>`。設定集中在 `seo.config.json` 的 `googleAnalyticsId`；修改後執行 `node scripts/build-seo.cjs`，或由 GitHub Actions 部署時重新產生。設為空字串再產生即可移除追蹤碼。Google 擁有權驗證檔維持原始內容。
+
+追蹤碼會隨頁面載入啟用；推送並部署成功後，可開啟網站並在 GA4「即時」報表檢查資料。尚未驗證正式網站的資料接收；瀏覽器的追蹤阻擋設定可能影響傳送。
+
+### 搜尋最佳化內容
+
 - 首頁、查詢頁、完整目錄、來源說明及 659 件道具頁均有獨立標題、description、Open Graph、Twitter Card 與 canonical。
 - 每件道具都有 `item/<ID>.html` 固定網址，初始 HTML 直接包含名稱、ID、分類、說明、配方、用途及來源限制，無需 JavaScript 即可讀取。互動明細內亦提供獨立頁連結。
 - `catalog.html` 列出全部道具的真實連結，素材與用途連結建立雙向導覽。搜尋／標籤參數網址統一 canonical 至 `items.html`，sitemap 僅列主要固定頁面。
@@ -78,5 +86,13 @@ SEO 測試會檢查所有公開頁的結構化資料、canonical、內部 HTML �
 4. 若設定完成仍出現 404，檢查帳號的管理權限、儲存庫所屬方案是否支援目前可見性下的 Pages，以及組織是否限制 Pages。
 
 工作流程使用 `configure-pages@v6` 與 `setup-node@v6`（Action 執行環境為 Node.js 24），網站產生與測試仍使用指定的 Node.js 22。未設定 `enablement: true`，因為該功能需要額外的高權限 token，普通 `GITHUB_TOKEN` 無法完成首次啟用。Ubuntu 執行環境固定為 `ubuntu-24.04`。
+
+### Google Search Console HTML 檔案驗證
+
+`googlec50a17ce59ee8c3c.html` 放在專案根目錄，部署工作流程會將它原封不動複製到網站根目錄。新增檔案與工作流程修改都必須提交並推送，待新的 Pages 部署成功後才能驗證。
+
+在 Search Console 使用「網址前置字元」資源 `https://kingex1124.github.io/MabiMGuide/`。先開啟 [驗證檔網址](https://kingex1124.github.io/MabiMGuide/googlec50a17ce59ee8c3c.html)，確認能看到 `google-site-verification: googlec50a17ce59ee8c3c.html`，再回 Search Console 按「驗證」。若資源填成 `https://kingex1124.github.io/`，驗證所需位置會在另一個網站根目錄，不能以本專案的子目錄檔案代替。
+
+驗證成功後仍須保留此檔案，Google 會定期重新確認。請勿將驗證檔套用網站版型或修改其內容。參考：[Google 網站擁有權驗證說明](https://support.google.com/webmasters/answer/9008080?hl=zh-Hant)。
 
 參考：[Google AI 搜尋與網站](https://developers.google.com/search/docs/appearance/ai-features)、[可爬取連結](https://developers.google.com/search/docs/crawling-indexing/links-crawlable)、[canonical 設定](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)、[GitHub Pages 工作流程](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
