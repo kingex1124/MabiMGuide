@@ -265,6 +265,11 @@
       "id": "tag-0053",
       "name": "共享",
       "description": ""
+    },
+    {
+      "id": "tag-0054",
+      "name": "其他道具",
+      "description": "多用途製作台"
     }
   ],
   "items": [
@@ -853,7 +858,7 @@
     },
     {
       "id": "item-0046",
-      "name": "裝水的杯子",
+      "name": "裝水的瓶子",
       "description": "",
       "tags": [
         "tag-0003",
@@ -9550,7 +9555,351 @@
         "item-0657",
         "item-0658"
       ]
+    },
+    {
+      "id": "item-0665",
+      "name": "焦油",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0005"
+      ],
+      "components": [
+        "item-0005",
+        "item-0063"
+      ]
+    },
+    {
+      "id": "item-0666",
+      "name": "柔軟原木",
+      "description": "採集",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0667",
+      "name": "柔軟木材",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006"
+      ],
+      "components": [
+        "item-0015",
+        "item-0020",
+        "item-0666"
+      ]
+    },
+    {
+      "id": "item-0668",
+      "name": "堅硬原木",
+      "description": "採集",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0669",
+      "name": "堅硬木材",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0006"
+      ],
+      "components": [
+        "item-0020",
+        "item-0025",
+        "item-0668"
+      ]
+    },
+    {
+      "id": "item-0670",
+      "name": "長莖稈",
+      "description": "採集",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0671",
+      "name": "厚實羊毛",
+      "description": "採集",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0672",
+      "name": "蜂蠟",
+      "description": "雜貨店、公會商店購買",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0673",
+      "name": "厚布料",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": [
+        "item-0039",
+        "item-0671",
+        "item-0672"
+      ]
+    },
+    {
+      "id": "item-0674",
+      "name": "植物纖維",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": [
+        "item-0670"
+      ]
+    },
+    {
+      "id": "item-0675",
+      "name": "繩索",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": [
+        "item-0672",
+        "item-0674"
+      ]
+    },
+    {
+      "id": "item-0676",
+      "name": "結實的繩索",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0008"
+      ],
+      "components": [
+        "item-0665",
+        "item-0672",
+        "item-0674",
+        "item-0675"
+      ]
+    },
+    {
+      "id": "item-0677",
+      "name": "膠水",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0009"
+      ],
+      "components": [
+        "item-0028",
+        "item-0046"
+      ]
+    },
+    {
+      "id": "item-0678",
+      "name": "砂紙",
+      "description": "工具店、公會商店",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0044",
+        "tag-0054"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0679",
+      "name": "圓形木椅飾面材(棕色)",
+      "description": "小釣魚場、交易所",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0044",
+        "tag-0054"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0680",
+      "name": "圓形木椅飾面材(米色)",
+      "description": "南側牆面釣魚場、東側牆面釣魚場、交易所",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0044",
+        "tag-0054"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0681",
+      "name": "經典木椅飾面材(紅色)",
+      "description": "舊釣魚場、交易所",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0044",
+        "tag-0054"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0682",
+      "name": "經典木椅飾面材(藍色)",
+      "description": "河口釣魚場、交易所",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0044",
+        "tag-0054"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0683",
+      "name": "圓形木製召喚椅箱(棕色)",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0044",
+        "tag-0054"
+      ],
+      "components": [
+        "item-0496",
+        "item-0525",
+        "item-0582",
+        "item-0667",
+        "item-0678",
+        "item-0679"
+      ]
+    },
+    {
+      "id": "item-0684",
+      "name": "圓形木製召喚椅箱(米色)",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0044",
+        "tag-0054"
+      ],
+      "components": [
+        "item-0496",
+        "item-0525",
+        "item-0582",
+        "item-0667",
+        "item-0678",
+        "item-0680"
+      ]
+    },
+    {
+      "id": "item-0685",
+      "name": "經典木椅飾面材(棕色)",
+      "description": "海濱釣魚場、交易所",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0044",
+        "tag-0054"
+      ],
+      "components": []
+    },
+    {
+      "id": "item-0686",
+      "name": "經典木製召喚椅箱(棕色)",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0054"
+      ],
+      "components": [
+        "item-0049",
+        "item-0496",
+        "item-0525",
+        "item-0582",
+        "item-0667",
+        "item-0678",
+        "item-0685"
+      ]
+    },
+    {
+      "id": "item-0687",
+      "name": "經典木製召喚椅箱(紅色)",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0054"
+      ],
+      "components": [
+        "item-0049",
+        "item-0496",
+        "item-0525",
+        "item-0582",
+        "item-0667",
+        "item-0678",
+        "item-0681"
+      ]
+    },
+    {
+      "id": "item-0688",
+      "name": "經典木製召喚椅箱(藍色)",
+      "description": "",
+      "tags": [
+        "tag-0003",
+        "tag-0004",
+        "tag-0037",
+        "tag-0044",
+        "tag-0054"
+      ],
+      "components": [
+        "item-0049",
+        "item-0496",
+        "item-0525",
+        "item-0582",
+        "item-0667",
+        "item-0678",
+        "item-0682"
+      ]
     }
   ],
-  "exportedAt": "2026-09-25T15:12:10.356Z"
+  "exportedAt": "2026-10-23T04:50:13.194Z"
 }
