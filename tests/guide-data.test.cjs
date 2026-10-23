@@ -5,7 +5,8 @@ const { createIndex, search, branch } = require('../guide-data.js');
 const data = JSON.parse(fs.readFileSync(require('node:path').join(__dirname, '../Data/mabim-workshop.json'), 'utf8'));
 const index = createIndex(data);
 test('完整資料建立雙向索引，鐵礦石可製作鐵錠', () => {
-  assert.equal(index.items.size, 659);
+  assert.ok(data.items.length > 0);
+  assert.equal(index.items.size, data.items.length);
   const ore = data.items.find(item => item.name === '鐵礦石');
   const ingot = data.items.find(item => item.name === '鐵錠');
   assert.ok(index.uses.get(ore.id).includes(ingot.id));

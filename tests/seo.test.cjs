@@ -4,16 +4,19 @@ const fs = require('node:fs');
 const path = require('node:path');
 const os = require('node:os');
 const { generate, normalizeUrl } = require('../scripts/build-seo.cjs');
+const data = JSON.parse(fs.readFileSync(path.join(__dirname, '../Data/mabim-workshop.json'), 'utf8'));
 test('static pages expose data, valid structured data, canonical links and a complete sitemap under a subdirectory', () => {
   const temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'mabim-seo-'));
   try {
     const base = 'https://example.test/guide/';
     const result = generate(temporary, { siteUrl: base, siteName: '測試 <網站>', googleAnalyticsId: 'G-YZX1C4M7C9' });
-    assert.equal(result.pages, 663);
+    const expectedFiles = ['index.html', 'items.html', 'catalog.html', 'about.html', ...data.items.map(item => `item/${encodeURIComponent(item.id)}.html`)];
+    assert.equal(result.pages, expectedFiles.length);
     const sitemap = fs.readFileSync(path.join(temporary, 'sitemap.xml'), 'utf8');
     assert.equal([...sitemap.matchAll(/<loc>/g)].length, result.pages);
     assert.ok([...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].every(match => !match[1].includes('?')));
     const files = ['index.html', 'items.html', 'catalog.html', 'about.html', ...fs.readdirSync(path.join(temporary, 'item')).map(file => 'item/' + file)];
+    assert.deepEqual([...files].sort(), [...expectedFiles].sort());
     for (const file of files) {
       const html = fs.readFileSync(path.join(temporary, file), 'utf8');
       const head = html.split('</head>')[0];
@@ -34,7 +37,8 @@ test('static pages expose data, valid structured data, canonical links and a com
     const ingot = fs.readFileSync(path.join(temporary, 'item/item-0002.html'), 'utf8');
     assert.ok(ingot.includes('鐵礦石'));
     assert.ok(ingot.includes('item-0004.html'));
-    assert.ok(ingot.includes('2026-09-25'));
+    const exportedAt = new Date(data.exportedAt).toISOString();
+    assert.ok(ingot.includes(`<time datetime="${exportedAt}">${exportedAt.slice(0, 10)}（UTC）</time>`));
     const robots = fs.readFileSync(path.join(temporary, 'robots.txt'), 'utf8');
     assert.ok(robots.includes('Disallow: /guide/Tool/'));
     assert.ok(robots.includes(`Sitemap: ${base}sitemap.xml`));
